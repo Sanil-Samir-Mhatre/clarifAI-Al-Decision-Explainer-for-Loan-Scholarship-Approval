@@ -59,10 +59,10 @@ export default function ApplyPage() {
     reader.onload = async (e) => {
       const text = e.target?.result as string;
       setFileContent(text);
-      const data = parseDocument(text);
+      const data: any = parseDocument(text);
       
       // Calculate derived fields
-      data.loan_percent_income = data.loan_amount_requested / Math.max(data.income_annual, 1);
+      data.loan_percent_income = Number(data.loan_amount_requested) / Math.max(Number(data.income_annual), 1);
       
       setParsedData(data);
       
@@ -107,8 +107,8 @@ export default function ApplyPage() {
       const data = await res.json();
       if (data.content) {
         setFileContent(data.content);
-        const parsed = parseDocument(data.content);
-        parsed.loan_percent_income = parsed.loan_amount_requested / Math.max(parsed.income_annual, 1);
+        const parsed: any = parseDocument(data.content);
+        parsed.loan_percent_income = Number(parsed.loan_amount_requested) / Math.max(Number(parsed.income_annual), 1);
         setParsedData(parsed);
         
         
