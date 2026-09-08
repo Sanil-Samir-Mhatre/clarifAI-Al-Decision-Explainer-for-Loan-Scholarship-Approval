@@ -1,0 +1,27 @@
+====================================================
+        VERIDICT — LOAN/SCHOLARSHIP APPLICATION
+====================================================
+Case Reference: VER-APP-004 (Edge Case — Fairness Review)
+
+Applicant Name        : Imran Sheikh
+Age                    : 19
+Academic Score         : 58 / 100
+Annual Income          : Rs. 96,000
+Employment Years       : 0.3
+Credit Score           : 615
+Credit History (years) : 1.1
+Amount Requested       : Rs. 30,000
+Existing Debt Ratio    : 0.22
+Prior Default          : N
+Documents Attached     :
+   [x] Identity Proof
+   [ ] Income Proof            <-- MISSING
+   [x] Academic Transcript
+   [x] Bank Statement
+Eligibility Criteria Met: N
+
+Applicant Declaration: I confirm the above details are accurate to the
+best of my knowledge.
+
+Signature: I. Sheikh                      Date: 04-09-2026
+====================================================

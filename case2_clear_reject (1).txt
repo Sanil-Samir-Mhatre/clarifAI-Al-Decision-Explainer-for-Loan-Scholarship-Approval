@@ -1,0 +1,27 @@
+====================================================
+        VERIDICT — LOAN/SCHOLARSHIP APPLICATION
+====================================================
+Case Reference: VER-APP-002 (Clear Reject)
+
+Applicant Name        : Rohan Kulkarni
+Age                    : 29
+Academic Score         : 64 / 100
+Annual Income          : Rs. 2,40,000
+Employment Years       : 1.2
+Credit Score           : 518
+Credit History (years) : 2.0
+Amount Requested       : Rs. 1,40,000
+Existing Debt Ratio    : 0.61
+Prior Default          : Y
+Documents Attached     :
+   [x] Identity Proof
+   [x] Income Proof
+   [x] Academic Transcript
+   [x] Bank Statement
+Eligibility Criteria Met: Y
+
+Applicant Declaration: I confirm the above details are accurate to the
+best of my knowledge.
+
+Signature: R. Kulkarni                    Date: 04-09-2026
+====================================================

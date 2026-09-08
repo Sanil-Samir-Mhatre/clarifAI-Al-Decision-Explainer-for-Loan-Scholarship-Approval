@@ -1,0 +1,27 @@
+====================================================
+        VERIDICT — LOAN/SCHOLARSHIP APPLICATION
+====================================================
+Case Reference: VER-APP-001 (Clear Approve)
+
+Applicant Name        : Ananya Deshmukh
+Age                    : 21
+Academic Score         : 89 / 100
+Annual Income          : Rs. 1,80,000
+Employment Years       : 3.5
+Credit Score           : 754
+Credit History (years) : 6.2
+Amount Requested       : Rs. 60,000
+Existing Debt Ratio    : 0.12
+Prior Default          : N
+Documents Attached     :
+   [x] Identity Proof
+   [x] Income Proof
+   [x] Academic Transcript
+   [x] Bank Statement
+Eligibility Criteria Met: Y
+
+Applicant Declaration: I confirm the above details are accurate to the
+best of my knowledge.
+
+Signature: A. Deshmukh                    Date: 04-09-2026
+====================================================

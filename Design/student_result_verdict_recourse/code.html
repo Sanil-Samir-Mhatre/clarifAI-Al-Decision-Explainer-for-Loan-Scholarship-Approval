@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-primary-fixed": "#0f0069", "on-primary": "#ffffff", "on-tertiary-container": "#7ef1c2", "on-tertiary": "#ffffff", "on-error-container": "#93000a", "on-surface-variant": "#464555", "on-background": "#161b2d", "tertiary": "#00533b", "surface-variant": "#dee1fb", "tertiary-fixed": "#86f8c9", "on-tertiary-fixed-variant": "#00513a", "secondary-fixed-dim": "#c5c0ff", "on-primary-container": "#dad7ff", "surface-container-low": "#f3f2ff", "on-secondary-container": "#33288d", "surface": "#fbf8ff", "on-error": "#ffffff", "on-tertiary-fixed": "#002115", "surface-tint": "#4d44e3", "primary-fixed": "#e2dfff", "on-secondary-fixed-variant": "#41379b", "surface-container": "#ececff", "on-secondary-fixed": "#140067", "inverse-primary": "#c3c0ff", "surface-container-lowest": "#ffffff", "secondary": "#5951b4", "on-primary-fixed-variant": "#3323cc", "surface-bright": "#fbf8ff", "inverse-on-surface": "#f0efff", "primary-container": "#4f46e5", "background": "#fbf8ff", "inverse-surface": "#2b2f43", "on-secondary": "#ffffff", "surface-dim": "#d6d8f2", "surface-container-high": "#e4e7ff", "surface-container-highest": "#dee1fb", "tertiary-container": "#006e4f", "primary-fixed-dim": "#c3c0ff", "on-surface": "#161b2d", "outline": "#777587", "error-container": "#ffdad6", "secondary-fixed": "#e4dfff", "error": "#ba1a1a", "outline-variant": "#c7c4d8", "secondary-container": "#9f97ff", "tertiary-fixed-dim": "#68dbae", "primary": "#3525cd" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-3xl": "4rem", "space-2xs": "0.25rem", "space-md": "1rem", "space-sm": "0.75rem", "space-lg": "1.5rem", "max-content-width": "1200px", "container-padding-tablet": "1.5rem", "container-padding-desktop": "2.5rem", "space-xs": "0.5rem", "container-padding-mobile": "1rem", "space-2xl": "3rem", "space-xl": "2rem" }, "fontFamily": { "body-md": [ "Inter" ], "label-lg": [ "Inter" ], "body-lg": [ "Inter" ], "headline-lg-mobile": [ "Manrope" ], "headline-sm": [ "Manrope" ], "display-hero-mobile": [ "Manrope" ], "label-md": [ "Inter" ], "code-metric": [ "Inter" ], "headline-lg": [ "Manrope" ], "display-hero": [ "Manrope" ], "body-sm": [ "Inter" ], "headline-md": [ "Manrope" ], "label-caps": [ "Inter" ] }, "fontSize": { "body-md": [ "14px", { "lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "400" } ], "label-lg": [ "14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" } ], "body-lg": [ "16px", { "lineHeight": "26px", "letterSpacing": "-0.005em", "fontWeight": "400" } ], "headline-lg-mobile": [ "24px", { "lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "700" } ], "headline-sm": [ "18px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "display-hero-mobile": [ "32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "800" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" } ], "code-metric": [ "13px", { "lineHeight": "18px", "letterSpacing": "-0.01em", "fontWeight": "500" } ], "headline-lg": [ "32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "display-hero": [ "48px", { "lineHeight": "56px", "letterSpacing": "-0.03em", "fontWeight": "800" } ], "body-sm": [ "12px", { "lineHeight": "18px", "letterSpacing": "0.005em", "fontWeight": "400" } ], "headline-md": [ "24px", { "lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "700" } ], "label-caps": [ "11px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "700" } ] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 w-full px-container-padding-desktop flex items-center justify-between gap-space-lg"><div class="flex items-center gap-space-md min-w-max"><img alt="Veridict Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VKoEdwQJaZBxo9eEsqkme5x8c_xmAyAf--gY8xmLVs0b7fYwmiP-v6UlPiNVo6LCnsnJIdF3mtp8Z-ZEVeqc_g1L7TDU3yfdf03auSI1plL8nOeyyuZPv5xu7jIBaviIG1_f_R1zUm_cBL1fJ-WrZAo2m_YdqizCsGWukdiqVK3cZqOAn4b66wZaIoZdiLEtf6-DlvmddFaKS4Fn3wquKkduuGugmWvzRK85wiEUQl1ljhs-PELeos2nqO"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight leading-none">Veridict</span><span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider mt-0.5">AI Decision Explainer &amp; Fairness Engine</span></div></div><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-primary-container text-on-primary font-label-lg rounded-lg"><a class="px-space-sm py-space-xs font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all rounded-lg" data-path="overview" href="#">Overview</a><div class="h-4 w-px bg-surface-container-highest mx-space-2xs"></div><a aria-current="page" class="px-space-sm py-space-xs transition-all bg-primary-container text-on-primary font-label-lg rounded-lg" data-path="my-applications" href="#">My Applications</a><a class="px-space-sm py-space-xs font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all rounded-lg" data-path="new-application" href="#">New Application</a><div class="h-4 w-px bg-surface-container-highest mx-space-2xs"></div><a class="px-space-sm py-space-xs font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all rounded-lg" data-path="applications-table" href="#">Applications Table</a><a class="px-space-sm py-space-xs font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all rounded-lg" data-path="consensus-audit" href="#">Consensus &amp; Audit</a><a class="px-space-sm py-space-xs font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all rounded-lg" data-path="fairness-analytics" href="#">Fairness Analytics</a></nav><div class="flex items-center gap-space-md"><div class="bg-surface-container-high p-space-2xs rounded-full flex items-center"><button class="px-space-sm py-1 font-label-md text-label-md rounded-full bg-surface text-on-surface shadow-[0_1px_3px_rgba(30,34,53,0.04)]" type="button">Student View</button><button class="px-space-sm py-1 font-label-md text-label-md rounded-full text-on-surface-variant hover:text-on-surface" type="button">Admin Reviewer</button></div><button class="relative p-space-xs text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface rounded-full transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="absolute top-1 right-1 w-2 h-2 rounded-full bg-primary ring-2 ring-surface"></span></button><div class="flex items-center gap-space-xs pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdh8dHg69eZ6csSzodSNcw5f-d-CIw_xrio_lDY07TAqWQI5O2vTobnBvjbIJJ9ddwHZOrYxGZMe6WbP17SvowBMAPHfPjMkBI51zzcj8cUPR5Mp6ZGI-smPiiJxbfN4loFDC8Wl4qIER0tBzBX5KHf4Kwg3Q_wLZN6-ImpbWOdZI0axK3dLsXabMqMBd9CzcHfSgTg6gxXHLjOJi716_OZDsBhyGFYPb-rmm2pOyxuoKTgo76Z2TwEg"/></div></div></div></header><main class="w-full pt-16 bg-background min-h-screen"><div class="flex flex-col w-full">
+<div class="max-w-[1200px] mx-auto w-full px-container-padding-mobile md:px-container-padding-tablet lg:px-container-padding-desktop pb-space-3xl">
+<!-- Top Breadcrumb & Metadata Strip -->
+<section class="py-space-md flex flex-wrap items-center justify-between gap-space-sm text-on-surface-variant">
+<div class="flex items-center gap-space-xs font-label-md text-label-md">
+<a class="hover:text-primary transition-colors" href="#">Applications</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span>Evaluation Dossier</span>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-on-surface font-semibold">APP-2025-0812K</span>
+</div>
+<div class="flex items-center gap-space-md">
+<div class="flex items-center gap-space-xs bg-surface-container px-space-sm py-1 rounded-full text-on-surface-variant font-code-metric text-code-metric">
+<span class="inline-block w-2 h-2 rounded-full bg-secondary"></span>
+<span>Engine: Veridict Consensus v4.2</span>
+</div>
+<div class="font-code-metric text-code-metric text-on-surface-variant">
+          Audit Hash: <span class="text-on-surface font-semibold">#VRD-2024-8849</span>
+</div>
+</div>
+</section>
+<!-- SECTION 1: Master Verdict Hero & Interactive Score Gauge -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-stretch">
+<!-- Left 8 Cols: Verdict Card -->
+<div class="lg:col-span-8 bg-surface-container-lowest rounded-xl p-space-xl md:p-space-2xl shadow-sm flex flex-col justify-between relative overflow-hidden">
+<div class="absolute -right-16 -top-16 w-64 h-64 bg-secondary-fixed/30 rounded-full blur-3xl pointer-events-none"></div>
+<div class="space-y-space-lg relative z-10">
+<!-- Status Banner Pill -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm">
+<div class="inline-flex items-center gap-space-xs px-space-md py-1.5 rounded-full bg-surface-variant text-on-secondary-container font-label-lg text-label-lg shadow-sm">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">rule</span>
+<span>Verdict: Needs Review / Conditional Match</span>
+</div>
+<div class="inline-flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-surface-container-low text-primary font-label-md text-label-md">
+<span class="w-2 h-2 rounded-full bg-primary animate-ping"></span>
+<span>Confidence: High (94.2%)</span>
+</div>
+</div>
+<!-- Main Heading -->
+<div>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider block">Decision Outcome Summary</span>
+<h1 class="font-headline-lg text-headline-lg text-on-surface mt-1 tracking-tight">
+              Fellowship Grant: Conditional Approval
+            </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-2 max-w-2xl">
+              The multi-agent fairness engine evaluated 14 distinct dimensions. Academic, institutional, and demographic parity tests passed with zero redline bias detected.
+            </p>
+</div>
+<!-- Ollama / AI Plain-Language Callout -->
+<div class="bg-surface-container-low rounded-xl p-space-lg relative overflow-hidden shadow-sm">
+<div class="flex items-start gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-primary-container text-on-primary flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[22px]">auto_awesome</span>
+</div>
+<div class="space-y-1">
+<div class="flex items-center gap-space-xs font-label-caps text-label-caps text-primary uppercase">
+<span>Synthesized Plain-Language Explanation</span>
+<span class="w-1 h-1 rounded-full bg-primary"></span>
+<span>Ollama Llama-3.3-Auditor</span>
+</div>
+<blockquote class="font-headline-sm text-headline-sm text-on-surface italic font-medium leading-snug">
+                  “Your strong academic performance (88%) and low debt ratio qualify you for the priority fellowship bracket, pending single verification of your updated semester grade sheet.”
+                </blockquote>
+</div>
+</div>
+</div>
+</div>
+<!-- Metric Footer Cards within Hero -->
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-space-md pt-space-xl mt-space-lg relative z-10">
+<div class="p-space-sm rounded-lg bg-surface-container-low">
+<div class="font-label-caps text-label-caps text-on-surface-variant uppercase">Required Threshold</div>
+<div class="font-headline-md text-headline-md text-on-surface mt-0.5">70 <span class="font-body-sm text-body-sm text-on-surface-variant">/ 100</span></div>
+<div class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Unconditional line</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low">
+<div class="font-label-caps text-label-caps text-on-surface-variant uppercase">Current Status</div>
+<div class="font-headline-md text-headline-md text-primary mt-0.5">68 <span class="font-body-sm text-body-sm text-on-surface-variant">/ 100</span></div>
+<div class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">2 pts to automated pass</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low col-span-2 sm:col-span-1">
+<div class="font-label-caps text-label-caps text-on-surface-variant uppercase">Potential Post-Fix</div>
+<div class="font-headline-md text-headline-md text-tertiary mt-0.5">83 <span class="font-body-sm text-body-sm text-on-surface-variant">/ 100</span></div>
+<div class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Top-tier eligibility</div>
+</div>
+</div>
+</div>
+<!-- Right 4 Cols: Consensus Visualizer Ring & Auditor Consensus Stash -->
+<div class="lg:col-span-4 bg-surface-container-lowest rounded-xl p-space-xl shadow-sm flex flex-col justify-between">
+<div class="space-y-space-md">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-on-surface">Auditor Consensus</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container font-code-metric text-code-metric text-on-surface-variant">3 / 3 Signed</span>
+</div>
+<!-- Circular Gauge Visual -->
+<div class="flex flex-col items-center justify-center py-space-md">
+<div class="relative w-44 h-44 flex items-center justify-center">
+<svg class="w-full h-full -rotate-90" viewbox="0 0 120 120">
+<!-- Background track -->
+<circle class="text-surface-container" cx="60" cy="60" fill="none" r="50" stroke="currentColor" stroke-width="10"></circle>
+<!-- Current Score Segment (68% -> circumference ~314 -> offset ~100.5) -->
+<circle class="text-primary transition-all duration-1000 ease-out" cx="60" cy="60" fill="none" id="score-ring-active" r="50" stroke="currentColor" stroke-dasharray="314.15" stroke-dashoffset="100.5" stroke-linecap="round" stroke-width="10"></circle>
+<!-- Target Recourse Segment (Ghosted to 83%) -->
+<circle class="text-tertiary-fixed-dim/40 opacity-70" cx="60" cy="60" fill="none" r="50" stroke="currentColor" stroke-dasharray="314.15" stroke-dashoffset="53.4" stroke-linecap="round" stroke-width="10"></circle>
+</svg>
+<div class="absolute inset-0 flex flex-col items-center justify-center text-center">
+<span class="font-code-metric text-code-metric text-on-surface-variant tracking-wider uppercase">Score</span>
+<span class="font-display-hero text-display-hero text-on-surface font-extrabold leading-none tracking-tight">68</span>
+<span class="font-label-md text-label-md text-on-surface-variant mt-1">/ 100</span>
+</div>
+</div>
+<div class="flex items-center gap-space-md mt-space-sm text-center">
+<div class="flex items-center gap-1.5 font-body-sm text-body-sm text-on-surface">
+<span class="w-2.5 h-2.5 rounded-full bg-primary inline-block"></span> Current (68)
+              </div>
+<div class="flex items-center gap-1.5 font-body-sm text-body-sm text-tertiary">
+<span class="w-2.5 h-2.5 rounded-full bg-tertiary inline-block"></span> Feasible (83)
+              </div>
+</div>
+</div>
+<!-- Auditor Breakdown Mini Stack -->
+<div class="space-y-space-xs pt-space-xs">
+<div class="flex items-center justify-between p-space-xs rounded bg-surface-container-low font-body-sm text-body-sm">
+<span class="text-on-surface">Academic Merit Model</span>
+<span class="font-code-metric text-code-metric text-tertiary font-semibold">Approved (91%)</span>
+</div>
+<div class="flex items-center justify-between p-space-xs rounded bg-surface-container-low font-body-sm text-body-sm">
+<span class="text-on-surface">Financial Resilience Auditor</span>
+<span class="font-code-metric text-code-metric text-tertiary font-semibold">Approved (84%)</span>
+</div>
+<div class="flex items-center justify-between p-space-xs rounded bg-surface-container-low font-body-sm text-body-sm">
+<span class="text-on-surface">Document Integrity Engine</span>
+<span class="font-code-metric text-code-metric text-error font-semibold">Flagged (Illegible)</span>
+</div>
+</div>
+</div>
+<div class="pt-space-md text-center">
+<a class="font-label-lg text-label-lg text-primary hover:text-on-primary-fixed-variant inline-flex items-center gap-1 transition-colors" href="#recourse-section">
+            View resolution path below <span class="material-symbols-outlined text-[16px]">arrow_downward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Visual Divider & Feature Grid Overlap -->
+<div class="h-space-xl"></div>
+<!-- SECTION 2: Plain-Language Reasons List (SHAP / Feature Attribution) -->
+<section class="space-y-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div>
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-wider">Transparent Attribution</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight mt-1">
+            Why was this decision reached?
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+            Each factor provides mathematical SHAP weight impact along with human-readable rationale.
+          </p>
+</div>
+<div class="flex items-center gap-space-xs font-label-md text-label-md">
+<span class="px-space-sm py-1 rounded bg-surface-container text-on-surface">Positive: +45 pts</span>
+<span class="px-space-sm py-1 rounded bg-error-container text-on-error-container">Penalty: -15 pts</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Factor Card 1: Credit Profile (Positive) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow relative overflow-hidden group">
+<div class="space-y-space-md">
+<div class="flex items-center justify-between">
+<span class="px-space-xs py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-caps text-label-caps uppercase tracking-wider font-bold">
+                Significant Driver
+              </span>
+<span class="font-code-metric text-code-metric text-tertiary font-bold bg-tertiary-fixed/30 px-space-xs py-0.5 rounded">
+                +25 Impact
+              </span>
+</div>
+<div>
+<div class="flex items-center gap-space-xs text-on-surface font-headline-sm text-headline-sm">
+<span class="material-symbols-outlined text-tertiary text-[22px]">trending_up</span>
+<span>Exceptional Credit Margin</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface mt-space-xs">
+                Credit score of <strong class="font-semibold">740</strong> exceeds the program threshold (580) by 160 points.
+              </p>
+</div>
+<!-- Micro attribution bar -->
+<div class="space-y-1 pt-space-xs">
+<div class="flex justify-between font-label-caps text-label-caps text-on-surface-variant">
+<span>Contribution Margin</span>
+<span>88% Optimal</span>
+</div>
+<div class="h-1.5 w-full bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-tertiary rounded-full w-[88%]"></div>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Reflects flawless historical repayment discipline across all reported institutional credit instruments.
+            </p>
+</div>
+<div class="pt-space-md mt-space-md flex items-center justify-between font-label-md text-label-md text-on-surface-variant">
+<span>Signal Weight</span>
+<span class="font-code-metric text-code-metric text-on-surface">SHAP: +0.312</span>
+</div>
+</div>
+<!-- Factor Card 2: Debt-to-Income (Positive) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow relative overflow-hidden group">
+<div class="space-y-space-md">
+<div class="flex items-center justify-between">
+<span class="px-space-xs py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-caps text-label-caps uppercase tracking-wider font-bold">
+                High Resilience
+              </span>
+<span class="font-code-metric text-code-metric text-tertiary font-bold bg-tertiary-fixed/30 px-space-xs py-0.5 rounded">
+                +20 Impact
+              </span>
+</div>
+<div>
+<div class="flex items-center gap-space-xs text-on-surface font-headline-sm text-headline-sm">
+<span class="material-symbols-outlined text-tertiary text-[22px]">verified_user</span>
+<span>Low Debt Exposure</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface mt-space-xs">
+                Debt-to-income ratio at <strong class="font-semibold">18%</strong> indicates high ongoing liquidity resilience during study terms.
+              </p>
+</div>
+<!-- Micro attribution bar -->
+<div class="space-y-1 pt-space-xs">
+<div class="flex justify-between font-label-caps text-label-caps text-on-surface-variant">
+<span>Solvency Index</span>
+<span>82% Tier</span>
+</div>
+<div class="h-1.5 w-full bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-tertiary rounded-full w-[82%]"></div>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Significantly below the program risk ceiling of 35%, ensuring zero friction for stipends or grant distribution.
+            </p>
+</div>
+<div class="pt-space-md mt-space-md flex items-center justify-between font-label-md text-label-md text-on-surface-variant">
+<span>Signal Weight</span>
+<span class="font-code-metric text-code-metric text-on-surface">SHAP: +0.248</span>
+</div>
+</div>
+<!-- Factor Card 3: Missing / Illegible Transcript (Cautionary) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow relative overflow-hidden group">
+<div class="space-y-space-md">
+<div class="flex items-center justify-between">
+<span class="px-space-xs py-1 rounded-full bg-error-container text-on-error-container font-label-caps text-label-caps uppercase tracking-wider font-bold">
+                Action Required
+              </span>
+<span class="font-code-metric text-code-metric text-error font-bold bg-error-container/40 px-space-xs py-0.5 rounded">
+                -15 Penalty
+              </span>
+</div>
+<div>
+<div class="flex items-center gap-space-xs text-on-surface font-headline-sm text-headline-sm">
+<span class="material-symbols-outlined text-error text-[22px]">report_problem</span>
+<span>Illegible Grade Sheet</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface mt-space-xs">
+                Supplemental 4th semester mark sheet copy was <strong class="font-semibold text-error">unreadable / low DPI scan</strong> in original submission.
+              </p>
+</div>
+<!-- Micro penalty indicator -->
+<div class="space-y-1 pt-space-xs">
+<div class="flex justify-between font-label-caps text-label-caps text-error">
+<span>OCR Reliability</span>
+<span>38% (Deficient)</span>
+</div>
+<div class="h-1.5 w-full bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-error rounded-full w-[38%]"></div>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              The automated verification pipeline failed to extract official registrar seal &amp; credits for 3 STEM core courses.
+            </p>
+</div>
+<div class="pt-space-md mt-space-md flex items-center justify-between font-label-md text-label-md text-error">
+<span>Blocked Potential</span>
+<span class="font-code-metric text-code-metric font-semibold">Resolves with 1 step</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Visual Divider -->
+<div class="h-space-xl"></div>
+<!-- SECTION 3: CARE Recourse Engine (Interactive Simulation + Fix Pathway) -->
+<section class="bg-surface-container-lowest rounded-xl p-space-xl md:p-space-2xl shadow-sm relative overflow-hidden" id="recourse-section">
+<div class="absolute -left-20 -bottom-20 w-80 h-80 bg-primary-container/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="relative z-10 space-y-space-xl">
+<!-- Header -->
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-md pb-space-lg">
+<div>
+<div class="inline-flex items-center gap-space-xs text-primary font-label-caps text-label-caps uppercase tracking-wider mb-1">
+<span class="material-symbols-outlined text-[16px]">psychology</span>
+<span>Counterfactual Algorithmic Recourse Engine (CARE)</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+              💡 How to Secure Final Approval
+            </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-1 max-w-2xl">
+              Veridict provides mathematical guarantees that satisfying the actionable conditions below will immediately trigger unconditional approval.
+            </p>
+</div>
+<div class="flex items-center gap-space-sm self-start md:self-auto">
+<span class="px-space-sm py-1.5 rounded-full bg-surface-container font-label-md text-label-md text-on-surface flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span> Recourse Feasibility: 99.1%
+            </span>
+</div>
+</div>
+<!-- Step-by-Step Recourse Pathways -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl">
+<!-- Action Step Cards (7 cols) -->
+<div class="lg:col-span-7 space-y-space-md">
+<!-- Step 1: Essential / High Impact -->
+<div class="p-space-lg rounded-xl bg-surface-container-low transition-all duration-200">
+<div class="flex items-start gap-space-md">
+<div class="w-8 h-8 rounded-full bg-primary-container text-on-primary flex items-center justify-center font-bold text-label-lg shrink-0">
+                  1
+                </div>
+<div class="space-y-space-xs flex-1">
+<div class="flex flex-wrap items-center justify-between gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface">Upload legible Semester 4 Mark Sheet</span>
+<span class="px-space-xs py-0.5 rounded bg-tertiary-fixed text-on-tertiary-fixed font-code-metric text-code-metric font-bold">+15 Points</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                    Expected score increase: <strong class="text-tertiary font-semibold">+15 points</strong> → Brings consensus score to <strong class="text-on-surface font-semibold">83/100</strong>, exceeding the 70-point bar for <strong class="text-tertiary font-semibold">Unconditional Priority Approval</strong>.
+                  </p>
+<!-- Inline Document Drop Area / Upload Simulation -->
+<div class="mt-space-md pt-space-xs">
+<div class="p-space-md rounded-lg bg-surface-container-lowest text-center cursor-pointer hover:bg-surface-container-high transition-colors" id="drop-zone">
+<div class="flex flex-col items-center justify-center gap-1">
+<span class="material-symbols-outlined text-primary text-[32px]">upload_file</span>
+<span class="font-label-lg text-label-lg text-on-surface">Click to select or drag Semester_4_Official.pdf</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">PDF, PNG or JPG (min 300 DPI, max 10MB)</span>
+</div>
+</div>
+<div class="hidden mt-2 p-2 rounded bg-tertiary-fixed/30 text-tertiary font-body-sm text-body-sm flex items-center gap-2" id="file-uploaded-msg">
+<span class="material-symbols-outlined text-[18px]">check_circle</span>
+<span>Ready: <strong>Semester_4_Official_Transcript_HD.pdf</strong> (2.4 MB)</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Step 2: Optional Accelerant -->
+<div class="p-space-lg rounded-xl bg-surface-container-low">
+<div class="flex items-start gap-space-md">
+<div class="w-8 h-8 rounded-full bg-surface-container-high text-on-surface font-bold text-label-lg flex items-center justify-center shrink-0">
+                  2
+                </div>
+<div class="space-y-space-xs flex-1">
+<div class="flex flex-wrap items-center justify-between gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface">Optional: Add secondary co-guarantor or sponsor letter</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container font-code-metric text-code-metric text-on-surface-variant">Expedited Clearance</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                    While not strictly required for approval once your transcript is accepted, adding an institutional mentor sponsor letter activates the <strong class="text-on-surface font-semibold">4-Hour Fast Track Clearance Protocol</strong>.
+                  </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Counterfactual Simulator / What-If Projection (5 cols) -->
+<div class="lg:col-span-5 bg-surface-container-high p-space-lg rounded-xl flex flex-col justify-between space-y-space-md">
+<div>
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-on-surface">Simulation Outcome</span>
+<span class="font-label-caps text-label-caps uppercase text-primary font-bold">Real-time</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                Projected state after fulfilling actionable counterfactual item #1:
+              </p>
+<!-- Comparison Visual -->
+<div class="space-y-space-md mt-space-lg">
+<!-- Current Score Bar -->
+<div>
+<div class="flex justify-between font-body-sm text-body-sm mb-1">
+<span class="text-on-surface-variant">Current Consensus Score</span>
+<span class="font-code-metric text-code-metric text-on-surface font-semibold">68 / 100</span>
+</div>
+<div class="h-2 w-full bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-primary rounded-full" style="width: 68%;"></div>
+</div>
+</div>
+<!-- Projected Score Bar -->
+<div>
+<div class="flex justify-between font-body-sm text-body-sm mb-1">
+<span class="text-tertiary font-medium">Projected Post-Verification</span>
+<span class="font-code-metric text-code-metric text-tertiary font-bold">83 / 100</span>
+</div>
+<div class="h-2 w-full bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-tertiary rounded-full transition-all duration-500" style="width: 83%;"></div>
+</div>
+</div>
+<!-- Threshold Marker Info -->
+<div class="p-space-sm rounded bg-surface-container-lowest font-body-sm text-body-sm flex items-center justify-between">
+<span class="text-on-surface-variant">Approval Threshold</span>
+<span class="font-code-metric text-code-metric text-on-surface">70.0 Score Unit</span>
+</div>
+</div>
+<!-- Instant Impact Badges -->
+<div class="grid grid-cols-2 gap-space-xs mt-space-md">
+<div class="p-space-xs rounded bg-surface-container-lowest text-center">
+<div class="font-label-caps text-label-caps text-on-surface-variant">Disbursement</div>
+<div class="font-label-lg text-label-lg text-tertiary font-semibold mt-0.5">Unlocks 100%</div>
+</div>
+<div class="p-space-xs rounded bg-surface-container-lowest text-center">
+<div class="font-label-caps text-label-caps text-on-surface-variant">Review Time</div>
+<div class="font-label-lg text-label-lg text-on-surface font-semibold mt-0.5">&lt; 15 Minutes</div>
+</div>
+</div>
+</div>
+<!-- Guarantee Note -->
+<div class="pt-space-sm flex items-start gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-primary shrink-0 mt-0.5">verified</span>
+<span>Auditable Recourse Guarantee: As per Veridict Protocol Article 4.3, no new adverse variables may be introduced during single-document resolution.</span>
+</div>
+</div>
+</div>
+<!-- CTA and Action Strip -->
+<div class="pt-space-md flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-space-md">
+<button class="px-space-lg py-space-sm rounded-lg bg-primary-container hover:bg-primary text-on-primary font-label-lg text-label-lg shadow-sm hover:shadow transition-all flex items-center justify-center gap-space-xs" id="re-eval-btn" type="button">
+<span class="material-symbols-outlined text-[20px]">sync</span>
+<span>Submit Missing Document &amp; Re-Evaluate Instantly</span>
+</button>
+<button class="px-space-md py-space-sm rounded-lg bg-surface-container-lowest hover:bg-surface-container-high text-on-surface font-label-lg text-label-lg shadow-sm transition-all flex items-center justify-center gap-space-xs" type="button">
+<span class="material-symbols-outlined text-[20px]">download</span>
+<span>Download Formal Decision Audit Report (PDF)</span>
+<span class="font-code-metric text-code-metric text-on-surface-variant ml-1 font-normal">#VRD-2024-8849</span>
+</button>
+</div>
+</div>
+</section>
+<!-- SECTION 4: Institutional Fairness & Compliance Audit Log -->
+<section class="mt-space-2xl grid grid-cols-1 md:grid-cols-12 gap-space-lg items-center bg-surface-container-lowest rounded-xl p-space-lg shadow-sm">
+<div class="md:col-span-8 flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center shrink-0 text-primary">
+<span class="material-symbols-outlined text-[26px]">gavel</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Autonomous Equal Treatment Verification</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+            This outcome was audited against Demographic Parity and Disparate Impact Ratio tests (4/5ths Rule). Zero differential treatment detected across demographic and geographic cohorts.
+          </p>
+</div>
+</div>
+<div class="md:col-span-4 flex md:justify-end gap-space-sm">
+<span class="inline-flex items-center gap-1 px-space-sm py-1 rounded-full bg-surface-container text-on-surface font-code-metric text-code-metric">
+<span class="material-symbols-outlined text-tertiary text-[14px]">check_circle</span> DIR: 1.04 (Passed)
+        </span>
+<span class="inline-flex items-center gap-1 px-space-sm py-1 rounded-full bg-surface-container text-on-surface font-code-metric text-code-metric">
+<span class="material-symbols-outlined text-tertiary text-[14px]">check_circle</span> EOD: 0.02 (Passed)
+        </span>
+</div>
+</section>
+</div>
+</div>
+<script>
+  // Simple interactive mock for the document drop area and re-evaluation trigger
+  (function() {
+    const dropZone = document.getElementById('drop-zone');
+    const uploadedMsg = document.getElementById('file-uploaded-msg');
+    const reEvalBtn = document.getElementById('re-eval-btn');
+    const ringActive = document.getElementById('score-ring-active');
+
+    if (dropZone && uploadedMsg) {
+      dropZone.addEventListener('click', function() {
+        uploadedMsg.classList.remove('hidden');
+        dropZone.classList.add('bg-surface-container-high');
+      });
+    }
+
+    if (reEvalBtn) {
+      reEvalBtn.addEventListener('click', function() {
+        const originalText = reEvalBtn.innerHTML;
+        reEvalBtn.disabled = true;
+        reEvalBtn.innerHTML = '<span class="material-symbols-outlined text-[20px] animate-spin">refresh</span><span>Running Verification Pipeline...</span>';
+
+        setTimeout(function() {
+          reEvalBtn.innerHTML = '<span class="material-symbols-outlined text-[20px]">check_circle</span><span>Passed &amp; Approved (83/100)</span>';
+          reEvalBtn.classList.remove('bg-primary-container', 'hover:bg-primary');
+          reEvalBtn.classList.add('bg-tertiary-container', 'text-on-tertiary');
+          if (ringActive) {
+            ringActive.setAttribute('stroke-dashoffset', '53.4');
+            ringActive.classList.remove('text-primary');
+            ringActive.classList.add('text-tertiary');
+          }
+        }, 1200);
+      });
+    }
+  })();
+</script></main><footer class="w-full bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)] py-space-xl mt-space-3xl"><div class="w-full px-container-padding-desktop flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface">Veridict AI</span><span class="font-body-sm text-body-sm text-on-surface-variant mt-space-2xs">Autonomous Algorithmic Auditing &amp; Human-Centric Recourse System</span></div><div class="flex items-center gap-space-lg font-body-sm text-body-sm text-on-surface-variant"><a class="hover:text-primary transition-colors" href="#">Fairness Framework</a><a class="hover:text-primary transition-colors" href="#">Recourse Policy</a><a class="hover:text-primary transition-colors" href="#">Documentation</a><span class="font-code-metric text-code-metric text-on-surface-variant">© 2025 Veridict</span></div></div></footer></body></html>

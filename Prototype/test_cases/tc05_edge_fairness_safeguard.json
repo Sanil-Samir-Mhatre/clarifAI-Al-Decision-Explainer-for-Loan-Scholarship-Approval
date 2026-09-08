@@ -1,0 +1,30 @@
+{
+  "test_case_id": "TC-05",
+  "category": "Edge Case (Responsible AI Fairness Safeguard)",
+  "scenario": "Low Income + Missing Paperwork (Disparate Impact Prevention)",
+  "inputs": {
+    "academic_score": 89.5,
+    "income_annual": 22000,
+    "employment_years": 1.0,
+    "credit_score": 660,
+    "credit_history_years": 2.0,
+    "loan_amount_requested": 6000,
+    "loan_percent_income": 0.273,
+    "existing_debt_ratio": 0.15,
+    "prior_default_flag": 0,
+    "documents_missing_ct": 1,
+    "eligibility_criteria_met": 1
+  },
+  "expected_outputs": {
+    "decision": "Needs Review",
+    "confidence": "Medium",
+    "model_approval_probability": 0.561,
+    "fairness_flag_active": true
+  },
+  "fairness_alert": "FAIRNESS FLAG TRIGGERED: Lower-income applicant with missing paperwork. Bypasses automated denial to prevent indirect systemic exclusion.",
+  "reasons": [
+    "1 required verification document(s) missing",
+    "Borderline qualification criteria"
+  ],
+  "next_action": "Escalate to Human Inclusion Evaluator for alternative document verification (e.g. community reference or affidavit)."
+}

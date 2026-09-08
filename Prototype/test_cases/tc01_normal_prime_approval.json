@@ -1,0 +1,30 @@
+{
+  "test_case_id": "TC-01",
+  "category": "Normal Case (Standard Approval)",
+  "scenario": "Prime Credit & Solid Income",
+  "inputs": {
+    "academic_score": 85.0,
+    "income_annual": 75000,
+    "employment_years": 6.0,
+    "credit_score": 760,
+    "credit_history_years": 8.0,
+    "loan_amount_requested": 18000,
+    "loan_percent_income": 0.24,
+    "existing_debt_ratio": 0.18,
+    "prior_default_flag": 0,
+    "documents_missing_ct": 0,
+    "eligibility_criteria_met": 1
+  },
+  "expected_outputs": {
+    "decision": "Approve",
+    "confidence": "High",
+    "model_approval_probability": 0.980,
+    "fairness_flag_active": false
+  },
+  "reasons": [
+    "Prime credit score (760) demonstrates strong repayment capacity",
+    "Clean repayment track record (zero prior defaults)",
+    "All mandatory verification documents submitted"
+  ],
+  "next_action": "Issue automated loan pre-approval and send sanction letter."
+}

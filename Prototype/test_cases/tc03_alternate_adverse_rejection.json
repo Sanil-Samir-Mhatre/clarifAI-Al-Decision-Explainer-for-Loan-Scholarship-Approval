@@ -1,0 +1,31 @@
+{
+  "test_case_id": "TC-03",
+  "category": "Alternate Case (Adverse Rejection)",
+  "scenario": "High Credit Risk & Historical Default",
+  "inputs": {
+    "academic_score": 64.0,
+    "income_annual": 38000,
+    "employment_years": 1.5,
+    "credit_score": 520,
+    "credit_history_years": 2.5,
+    "loan_amount_requested": 25000,
+    "loan_percent_income": 0.658,
+    "existing_debt_ratio": 0.62,
+    "prior_default_flag": 1,
+    "documents_missing_ct": 0,
+    "eligibility_criteria_met": 1
+  },
+  "expected_outputs": {
+    "decision": "Reject",
+    "confidence": "Medium",
+    "model_approval_probability": 0.000,
+    "fairness_flag_active": false
+  },
+  "reasons": [
+    "Credit score (520) below underwriting floor (580)",
+    "Prior loan default on historical credit file",
+    "Loan-to-income ratio (65.8%) exceeds safety limit (40%)",
+    "High debt ratio (62.0%) indicates severe leverage"
+  ],
+  "next_action": "Send formal adverse action letter with explicit policy reasons (subprime credit + default record)."
+}

@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-primary-fixed": "#0f0069", "on-primary": "#ffffff", "on-tertiary-container": "#7ef1c2", "on-tertiary": "#ffffff", "on-error-container": "#93000a", "on-surface-variant": "#464555", "on-background": "#161b2d", "tertiary": "#00533b", "surface-variant": "#dee1fb", "tertiary-fixed": "#86f8c9", "on-tertiary-fixed-variant": "#00513a", "secondary-fixed-dim": "#c5c0ff", "on-primary-container": "#dad7ff", "surface-container-low": "#f3f2ff", "on-secondary-container": "#33288d", "surface": "#fbf8ff", "on-error": "#ffffff", "on-tertiary-fixed": "#002115", "surface-tint": "#4d44e3", "primary-fixed": "#e2dfff", "on-secondary-fixed-variant": "#41379b", "surface-container": "#ececff", "on-secondary-fixed": "#140067", "inverse-primary": "#c3c0ff", "surface-container-lowest": "#ffffff", "secondary": "#5951b4", "on-primary-fixed-variant": "#3323cc", "surface-bright": "#fbf8ff", "inverse-on-surface": "#f0efff", "primary-container": "#4f46e5", "background": "#fbf8ff", "inverse-surface": "#2b2f43", "on-secondary": "#ffffff", "surface-dim": "#d6d8f2", "surface-container-high": "#e4e7ff", "surface-container-highest": "#dee1fb", "tertiary-container": "#006e4f", "primary-fixed-dim": "#c3c0ff", "on-surface": "#161b2d", "outline": "#777587", "error-container": "#ffdad6", "secondary-fixed": "#e4dfff", "error": "#ba1a1a", "outline-variant": "#c7c4d8", "secondary-container": "#9f97ff", "tertiary-fixed-dim": "#68dbae", "primary": "#3525cd" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-3xl": "4rem", "space-2xs": "0.25rem", "space-md": "1rem", "space-sm": "0.75rem", "space-lg": "1.5rem", "max-content-width": "1200px", "container-padding-tablet": "1.5rem", "container-padding-desktop": "2.5rem", "space-xs": "0.5rem", "container-padding-mobile": "1rem", "space-2xl": "3rem", "space-xl": "2rem" }, "fontFamily": { "body-md": [ "Inter" ], "label-lg": [ "Inter" ], "body-lg": [ "Inter" ], "headline-lg-mobile": [ "Manrope" ], "headline-sm": [ "Manrope" ], "display-hero-mobile": [ "Manrope" ], "label-md": [ "Inter" ], "code-metric": [ "Inter" ], "headline-lg": [ "Manrope" ], "display-hero": [ "Manrope" ], "body-sm": [ "Inter" ], "headline-md": [ "Manrope" ], "label-caps": [ "Inter" ] }, "fontSize": { "body-md": [ "14px", { "lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "400" } ], "label-lg": [ "14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" } ], "body-lg": [ "16px", { "lineHeight": "26px", "letterSpacing": "-0.005em", "fontWeight": "400" } ], "headline-lg-mobile": [ "24px", { "lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "700" } ], "headline-sm": [ "18px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "display-hero-mobile": [ "32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "800" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" } ], "code-metric": [ "13px", { "lineHeight": "18px", "letterSpacing": "-0.01em", "fontWeight": "500" } ], "headline-lg": [ "32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "display-hero": [ "48px", { "lineHeight": "56px", "letterSpacing": "-0.03em", "fontWeight": "800" } ], "body-sm": [ "12px", { "lineHeight": "18px", "letterSpacing": "0.005em", "fontWeight": "400" } ], "headline-md": [ "24px", { "lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "700" } ], "label-caps": [ "11px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "700" } ] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 w-full px-container-padding-desktop flex items-center justify-between gap-space-lg"><div class="flex items-center gap-space-md min-w-max"><img alt="Veridict Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VKoEdwQJaZBxo9eEsqkme5x8c_xmAyAf--gY8xmLVs0b7fYwmiP-v6UlPiNVo6LCnsnJIdF3mtp8Z-ZEVeqc_g1L7TDU3yfdf03auSI1plL8nOeyyuZPv5xu7jIBaviIG1_f_R1zUm_cBL1fJ-WrZAo2m_YdqizCsGWukdiqVK3cZqOAn4b66wZaIoZdiLEtf6-DlvmddFaKS4Fn3wquKkduuGugmWvzRK85wiEUQl1ljhs-PELeos2nqO"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight leading-none">Veridict</span><span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider mt-0.5">AI Decision Explainer &amp; Fairness Engine</span></div></div><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-primary-container text-on-primary font-label-lg rounded-lg"><a class="px-space-sm py-space-xs font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all rounded-lg" data-path="overview" href="#">Overview</a><div class="h-4 w-px bg-surface-container-highest mx-space-2xs"></div><a aria-current="page" class="px-space-sm py-space-xs transition-all bg-primary-container text-on-primary font-label-lg rounded-lg" data-path="my-applications" href="#">My Applications</a><a class="px-space-sm py-space-xs font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all rounded-lg" data-path="new-application" href="#">New Application</a><div class="h-4 w-px bg-surface-container-highest mx-space-2xs"></div><a class="px-space-sm py-space-xs font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all rounded-lg" data-path="applications-table" href="#">Applications Table</a><a class="px-space-sm py-space-xs font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all rounded-lg" data-path="consensus-audit" href="#">Consensus &amp; Audit</a><a class="px-space-sm py-space-xs font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all rounded-lg" data-path="fairness-analytics" href="#">Fairness Analytics</a></nav><div class="flex items-center gap-space-md"><div class="bg-surface-container-high p-space-2xs rounded-full flex items-center"><button class="px-space-sm py-1 font-label-md text-label-md rounded-full bg-surface text-on-surface shadow-[0_1px_3px_rgba(30,34,53,0.04)]" type="button">Student View</button><button class="px-space-sm py-1 font-label-md text-label-md rounded-full text-on-surface-variant hover:text-on-surface" type="button">Admin Reviewer</button></div><button class="relative p-space-xs text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface rounded-full transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="absolute top-1 right-1 w-2 h-2 rounded-full bg-primary ring-2 ring-surface"></span></button><div class="flex items-center gap-space-xs pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdh8dHg69eZ6csSzodSNcw5f-d-CIw_xrio_lDY07TAqWQI5O2vTobnBvjbIJJ9ddwHZOrYxGZMe6WbP17SvowBMAPHfPjMkBI51zzcj8cUPR5Mp6ZGI-smPiiJxbfN4loFDC8Wl4qIER0tBzBX5KHf4Kwg3Q_wLZN6-ImpbWOdZI0axK3dLsXabMqMBd9CzcHfSgTg6gxXHLjOJi716_OZDsBhyGFYPb-rmm2pOyxuoKTgo76Z2TwEg"/></div></div></div></header><main class="w-full pt-16 bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- Subtle Ambient Glow -->
+<div class="relative w-full max-w-max-content-width mx-auto px-container-padding-mobile md:px-container-padding-tablet lg:px-container-padding-desktop pb-space-3xl">
+<div class="absolute -top-12 right-1/4 w-96 h-96 rounded-full bg-primary-fixed/25 blur-3xl pointer-events-none -z-10"></div>
+<div class="absolute top-48 -left-12 w-80 h-80 rounded-full bg-tertiary-fixed/20 blur-3xl pointer-events-none -z-10"></div>
+<!-- Editorial Header / Top Masthead Info -->
+<div class="pt-space-lg pb-space-sm flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div>
+<div class="inline-flex items-center gap-space-2xs px-space-sm py-0.5 rounded-full bg-surface-container-high text-primary font-label-caps text-label-caps uppercase tracking-wider">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-ping"></span>
+          Audit Node: US-EAST-ALGO-04
+        </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Applicant Reference: <span class="font-code-metric text-code-metric text-on-surface font-semibold">#VRD-2025-8849-PG</span></p>
+</div>
+<div class="flex items-center gap-space-xs font-code-metric text-code-metric text-on-surface-variant bg-surface-container-lowest shadow-sm px-space-sm py-1 rounded-lg">
+<span class="material-symbols-outlined text-[16px] text-tertiary">verified_user</span>
+<span>Cryptographic Hash Signed: 0x4f...9c1a</span>
+</div>
+</div>
+<!-- Main Grid Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg mt-space-xs">
+<!-- Primary Column (Left 8 Cols) -->
+<div class="lg:col-span-8 flex flex-col gap-space-lg">
+<!-- Welcome & Status Hero Card -->
+<div class="relative overflow-hidden rounded-xl bg-surface-container-lowest shadow-sm p-space-lg md:p-space-xl transition-all duration-300 hover:shadow-md">
+<div class="flex flex-col md:flex-row md:items-start justify-between gap-space-md">
+<div class="flex items-start gap-space-md">
+<img class="w-16 h-16 rounded-xl object-cover shadow-sm ring-2 ring-surface-container" data-alt="Close-up documentary portrait of Ananya Sharma, a brilliant young South Asian woman research scholar, natural gentle light in a university laboratory study corner, deep indigo cardigan, soft warm neutral tones, highly realistic, editorial magazine style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkImLxzMK7C-hgg6xVneb2QpaiolJ-IsEkwPkr2RJBNn8NgAz7uTg4Ig16SlQgDnWG7-oF7gpNINWFHKo9tKXvU2Yrzj0AUwzVbpHQdLixDBK-jzWwruQrbXivQIdK2ITw9MDHDZuEn2vR7KxXemFWhzuQxBAI0Hhu3jvxi_cRLkDCMB15B4tqh37wNNHXOC_x8Mexk0fYnDlMZbGALgajoMgYBPL0S2ohUoQC-xvof0QbIhAWo9n6Aw"/>
+<div>
+<h1 class="font-headline-md text-headline-md text-on-surface tracking-tight">
+                  Welcome back, Ananya Sharma! 👋
+                </h1>
+<p class="font-body-md text-body-md text-on-surface-variant mt-0.5">
+                  Your profile is actively linked to the autonomous fairness verification engine.
+                </p>
+</div>
+</div>
+<div class="self-start">
+<span class="inline-flex items-center gap-1.5 px-space-sm py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed-variant font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">school</span>
+                Master of Science Fellow
+              </span>
+</div>
+</div>
+<!-- Status Alert Banner -->
+<div class="mt-space-lg p-space-md rounded-xl bg-surface-container-low shadow-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary text-[22px]">balance</span>
+</div>
+<div>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider block">Target Application Status</span>
+<p class="font-headline-sm text-headline-sm text-on-surface">
+                  Post-Graduate STEM Fellowship: <span class="text-primary underline decoration-primary/30 decoration-2 underline-offset-4">Under Review</span>
+</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+                  Consensus in progress across 3 independent demographic blind auditors.
+                </p>
+</div>
+</div>
+<div class="flex items-center gap-space-xs w-full md:w-auto">
+<button class="w-full md:w-auto px-space-md py-2.5 rounded-lg bg-primary text-on-primary font-label-lg text-label-lg shadow-sm hover:bg-primary-container transition-all flex items-center justify-center gap-1.5 active:scale-[0.98]" type="button">
+<span>View Live Decision Status</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Quick Actions Line -->
+<div class="mt-space-md pt-space-md flex flex-wrap items-center justify-between gap-space-sm text-on-surface-variant">
+<div class="flex items-center gap-space-xs font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-tertiary text-[18px]">lock_reset</span>
+<span>Explainability logs are tamper-proof via decentralized verifiable compute.</span>
+</div>
+<button class="px-space-sm py-1 rounded-lg bg-surface-container-high hover:bg-surface-variant text-on-surface font-label-md text-label-md transition-colors flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-[16px]">upload_file</span>
+              Submit Supplemental Documents
+            </button>
+</div>
+</div>
+<!-- Status Tracker Stepper (Horizontal 4-Step Card) -->
+<div class="rounded-xl bg-surface-container-lowest shadow-sm p-space-lg md:p-space-xl">
+<div class="flex items-center justify-between mb-space-lg">
+<div>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider block">Auditing Lifecycle</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Multi-Model Fairness Pipeline</h2>
+</div>
+<span class="px-space-sm py-1 rounded-full bg-surface-container-high font-code-metric text-code-metric text-on-surface">
+              Stage 3 of 4 Active
+            </span>
+</div>
+<!-- Stepper Grid -->
+<div class="relative">
+<!-- Progress Line Behind Icons (Desktop) -->
+<div class="hidden md:block absolute top-5 left-8 right-8 h-1 bg-surface-container-high -z-0 rounded-full">
+<div class="h-full bg-gradient-to-r from-tertiary via-tertiary to-primary w-2/3 rounded-full"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-space-md relative z-10">
+<!-- Step 1: Completed -->
+<div class="flex md:flex-col items-center md:items-start gap-space-sm md:gap-space-xs p-space-sm md:p-0 rounded-lg md:rounded-none bg-surface-container-low md:bg-transparent">
+<div class="w-10 h-10 rounded-full bg-tertiary text-on-tertiary flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[20px]">check</span>
+</div>
+<div class="min-w-0">
+<span class="inline-flex items-center gap-1 font-label-caps text-label-caps text-tertiary font-bold tracking-wider uppercase">
+                    Completed • May 14
+                  </span>
+<h3 class="font-label-lg text-label-lg text-on-surface truncate">Application Submitted</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant hidden md:block mt-0.5">Payload received via secure gateway.</p>
+</div>
+</div>
+<!-- Step 2: Completed -->
+<div class="flex md:flex-col items-center md:items-start gap-space-sm md:gap-space-xs p-space-sm md:p-0 rounded-lg md:rounded-none bg-surface-container-low md:bg-transparent">
+<div class="w-10 h-10 rounded-full bg-tertiary text-on-tertiary flex items-center justify-center shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[20px]">check</span>
+</div>
+<div class="min-w-0">
+<span class="inline-flex items-center gap-1 font-label-caps text-label-caps text-tertiary font-bold tracking-wider uppercase">
+                    Completed • May 14
+                  </span>
+<h3 class="font-label-lg text-label-lg text-on-surface truncate">Document Parsing &amp; Rules</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant hidden md:block mt-0.5">10/10 verified with Zero anomalies.</p>
+</div>
+</div>
+<!-- Step 3: Active / In-Progress -->
+<div class="flex md:flex-col items-center md:items-start gap-space-sm md:gap-space-xs p-space-sm md:p-0 rounded-lg md:rounded-none bg-primary-fixed/30 md:bg-transparent">
+<div class="relative w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center shrink-0 shadow-md">
+<span class="material-symbols-outlined text-[20px] animate-pulse">sync</span>
+<span class="absolute -inset-1 rounded-full border-2 border-primary animate-ping opacity-30"></span>
+</div>
+<div class="min-w-0">
+<span class="inline-flex items-center gap-1 font-label-caps text-label-caps text-primary font-bold tracking-wider uppercase">
+                    In-Progress • May 15
+                  </span>
+<h3 class="font-label-lg text-label-lg text-primary font-bold truncate">ML Consensus &amp; Fairness</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant hidden md:block mt-0.5">Disparate impact ratio audit running.</p>
+</div>
+</div>
+<!-- Step 4: Upcoming -->
+<div class="flex md:flex-col items-center md:items-start gap-space-sm md:gap-space-xs p-space-sm md:p-0 rounded-lg md:rounded-none bg-surface-container-low/50 md:bg-transparent opacity-60">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest text-on-surface-variant flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">gavel</span>
+</div>
+<div class="min-w-0">
+<span class="font-label-caps text-label-caps text-on-surface-variant font-bold tracking-wider uppercase">
+                    Upcoming Stage
+                  </span>
+<h3 class="font-label-lg text-label-lg text-on-surface truncate">Final Verdict &amp; Recourse</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant hidden md:block mt-0.5">Human review &amp; counterfactual plans.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Micro-Diagnostic Progress Bar -->
+<div class="mt-space-lg pt-space-md bg-surface-container-low rounded-xl p-space-md flex flex-col md:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm w-full md:w-auto">
+<span class="material-symbols-outlined text-primary text-[20px]">insights</span>
+<div>
+<span class="font-label-md text-label-md text-on-surface block">Algorithmic Consensus Stability: 94.2%</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">LIME &amp; SHAP attribution vectors align with academic merit guidelines.</span>
+</div>
+</div>
+<!-- Embedded Sparkline Graphic -->
+<div class="w-full md:w-48 h-8 flex items-end gap-1 px-2">
+<div class="w-2 bg-primary/30 rounded-t h-3"></div>
+<div class="w-2 bg-primary/40 rounded-t h-4"></div>
+<div class="w-2 bg-primary/50 rounded-t h-6"></div>
+<div class="w-2 bg-primary/60 rounded-t h-5"></div>
+<div class="w-2 bg-primary/70 rounded-t h-7"></div>
+<div class="w-2 bg-primary rounded-t h-8"></div>
+<div class="w-2 bg-primary rounded-t h-7"></div>
+<div class="w-2 bg-primary/90 rounded-t h-8"></div>
+<div class="w-2 bg-tertiary rounded-t h-6"></div>
+<div class="w-2 bg-tertiary rounded-t h-7"></div>
+<div class="w-2 bg-tertiary rounded-t h-8"></div>
+<div class="w-2 bg-tertiary rounded-t h-8"></div>
+</div>
+</div>
+</div>
+<!-- Quick Stats Row (3 Rounded Cards with Soft Shadows) -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<!-- Card 1 -->
+<div class="rounded-xl bg-surface-container-lowest shadow-sm p-space-lg flex flex-col justify-between hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Application Queue</span>
+<div class="w-8 h-8 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[18px]">folder_copy</span>
+</div>
+</div>
+<div class="my-space-sm">
+<div class="flex items-baseline gap-2">
+<span class="font-headline-lg text-headline-lg text-on-surface">1</span>
+<span class="font-headline-sm text-headline-sm text-on-surface-variant">Active</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">1 Archived (Fall 2024 Research Grant)</p>
+</div>
+<div class="pt-space-xs flex items-center gap-1.5 text-tertiary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+<span>All filings in good standing</span>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="rounded-xl bg-surface-container-lowest shadow-sm p-space-lg flex flex-col justify-between hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Document Completeness</span>
+<div class="w-8 h-8 rounded-lg bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed-variant">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+</div>
+</div>
+<div class="my-space-sm">
+<div class="flex items-baseline gap-2">
+<span class="font-headline-lg text-headline-lg text-tertiary">10/10</span>
+<span class="font-headline-sm text-headline-sm text-tertiary">Verified</span>
+</div>
+<div class="w-full h-1.5 bg-surface-container-high rounded-full mt-2 overflow-hidden">
+<div class="w-full h-full bg-tertiary rounded-full"></div>
+</div>
+</div>
+<div class="pt-space-xs flex items-center gap-1.5 text-on-surface-variant font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">fact_check</span>
+<span>Transcripts, W2, ID Verified</span>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="rounded-xl bg-surface-container-lowest shadow-sm p-space-lg flex flex-col justify-between hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Est. Resolution Window</span>
+<div class="w-8 h-8 rounded-lg bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed-variant">
+<span class="material-symbols-outlined text-[18px]">schedule</span>
+</div>
+</div>
+<div class="my-space-sm">
+<div class="flex items-baseline gap-1">
+<span class="font-headline-lg text-headline-lg text-on-surface">&lt; 24</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">hours</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Expected delivery: Tomorrow, 11:30 AM</p>
+</div>
+<div class="pt-space-xs flex items-center gap-1.5 text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">bolt</span>
+<span>Automated fast-track routing</span>
+</div>
+</div>
+</div>
+<!-- Recent Activity Timeline Feed -->
+<div class="rounded-xl bg-surface-container-lowest shadow-sm p-space-lg md:p-space-xl">
+<div class="flex items-center justify-between pb-space-md">
+<div>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider block">Verifiable Audit Trail</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Recent Activity &amp; Notification Feed</h2>
+</div>
+<button class="text-primary hover:text-primary-container font-label-md text-label-md flex items-center gap-1 transition-colors" type="button">
+<span>Export Audit JSON</span>
+<span class="material-symbols-outlined text-[16px]">download</span>
+</button>
+</div>
+<div class="space-y-space-md relative before:absolute before:inset-0 before:left-4 before:w-0.5 before:bg-surface-container-high">
+<!-- Event 1 -->
+<div class="relative flex items-start gap-space-md pl-1">
+<div class="w-7 h-7 rounded-full bg-primary text-on-primary flex items-center justify-center ring-4 ring-surface-container-lowest shrink-0 shadow-sm z-10">
+<span class="material-symbols-outlined text-[14px]">psychology</span>
+</div>
+<div class="flex-1 bg-surface-container-low p-space-md rounded-xl">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+<span class="font-label-lg text-label-lg text-on-surface">ML Fairness Blind Evaluation Triggered</span>
+<span class="font-code-metric text-code-metric text-on-surface-variant">Today, 09:41 AM</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+                  Evaluating model divergence across demographic subgroups. Sensitive variables (gender, zip-code proxies) actively masked by privacy module.
+                </p>
+<div class="mt-space-sm flex items-center gap-2">
+<span class="px-2 py-0.5 rounded bg-surface-container-highest font-code-metric text-code-metric text-on-surface">SHAP attribution index = 0.88</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest font-code-metric text-code-metric text-on-surface">Fairness Delta = 0.01 (Pass)</span>
+</div>
+</div>
+</div>
+<!-- Event 2 -->
+<div class="relative flex items-start gap-space-md pl-1">
+<div class="w-7 h-7 rounded-full bg-tertiary text-on-tertiary flex items-center justify-center ring-4 ring-surface-container-lowest shrink-0 shadow-sm z-10">
+<span class="material-symbols-outlined text-[14px]">checklist_rtl</span>
+</div>
+<div class="flex-1 bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+<span class="font-label-lg text-label-lg text-on-surface">Rule verification completed</span>
+<span class="font-code-metric text-code-metric text-on-surface-variant">Yesterday, 04:15 PM</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+                  Rule validation module executed: zero missing mandatory forms identified. Prerequisites for Graduate STEM fully satisfied.
+                </p>
+</div>
+</div>
+<!-- Event 3 -->
+<div class="relative flex items-start gap-space-md pl-1">
+<div class="w-7 h-7 rounded-full bg-secondary text-on-secondary flex items-center justify-center ring-4 ring-surface-container-lowest shrink-0 shadow-sm z-10">
+<span class="material-symbols-outlined text-[14px]">document_scanner</span>
+</div>
+<div class="flex-1 bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+<span class="font-label-lg text-label-lg text-on-surface">Application PDF parsed successfully</span>
+<span class="font-code-metric text-code-metric text-on-surface-variant">Yesterday, 02:20 PM</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+                  OCR Engine extracted metrics: <strong class="text-on-surface font-semibold">Academic Merit Index: 88/100</strong>, <strong class="text-on-surface font-semibold">Credit/Financial Reliability Score: 740</strong>.
+                </p>
+</div>
+</div>
+<!-- Event 4 -->
+<div class="relative flex items-start gap-space-md pl-1">
+<div class="w-7 h-7 rounded-full bg-surface-variant text-on-surface-variant flex items-center justify-center ring-4 ring-surface-container-lowest shrink-0 shadow-sm z-10">
+<span class="material-symbols-outlined text-[14px]">inbox</span>
+</div>
+<div class="flex-1 bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+<span class="font-label-lg text-label-lg text-on-surface">Application received</span>
+<span class="font-code-metric text-code-metric text-on-surface-variant">May 14, 11:02 AM</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+                  Encrypted submission file registered to Ledger #VRD-8849. Digital applicant receipt dispatched via email.
+                </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Secondary Column / Sidebar (Right 4 Cols) -->
+<div class="lg:col-span-4 flex flex-col gap-space-lg">
+<!-- Quick Help & Transparency Charter Card -->
+<div class="rounded-xl bg-gradient-to-b from-surface-container-low to-surface-container-lowest shadow-sm p-space-lg relative overflow-hidden">
+<div class="w-12 h-12 rounded-xl bg-primary text-on-primary flex items-center justify-center mb-space-md shadow-sm">
+<span class="material-symbols-outlined text-[26px]">gavel</span>
+</div>
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-wider font-bold">Applicant Rights &amp; Protection</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">
+            Questions about your algorithmic audit?
+          </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+            Under our Transparency &amp; Recourse Charter, every automated score must provide counterfactual actionable remedies if an adverse decision is rendered.
+          </p>
+<!-- Charter Checklist -->
+<div class="my-space-md space-y-space-xs bg-surface-container-lowest/80 p-space-md rounded-lg shadow-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[18px] text-tertiary">check_circle</span>
+<span class="font-body-sm text-body-sm text-on-surface">Right to human committee appeal</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[18px] text-tertiary">check_circle</span>
+<span class="font-body-sm text-body-sm text-on-surface">Open feature importance weighting</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[18px] text-tertiary">check_circle</span>
+<span class="font-body-sm text-body-sm text-on-surface">Protected demographic blindness</span>
+</div>
+</div>
+<a class="inline-flex items-center justify-between w-full p-space-sm rounded-lg bg-surface-container-high hover:bg-surface-variant transition-colors text-on-surface font-label-lg text-label-lg group" href="#">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">menu_book</span>
+              Read Transparency Charter
+            </span>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:translate-x-0.5 transition-transform text-[18px]">open_in_new</span>
+</a>
+</div>
+<!-- Counterfactual Simulation Sneak-Peek Card -->
+<div class="rounded-xl bg-surface-container-lowest shadow-sm p-space-lg flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Algorithmic Sensitivity</span>
+<span class="px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed-variant font-label-md text-label-md">Optimized</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Simulated Approval Horizon</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+              Live sensitivity analysis estimates your current profile readiness across evaluated criteria:
+            </p>
+<div class="mt-space-md space-y-space-sm">
+<div>
+<div class="flex justify-between font-label-md text-label-md mb-1">
+<span class="text-on-surface">Academic Trajectory</span>
+<span class="font-code-metric text-code-metric text-tertiary font-bold">92% Match</span>
+</div>
+<div class="h-2 w-full bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-tertiary rounded-full w-[92%]"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between font-label-md text-label-md mb-1">
+<span class="text-on-surface">Socio-Economic Need Parity</span>
+<span class="font-code-metric text-code-metric text-primary font-bold">84% Match</span>
+</div>
+<div class="h-2 w-full bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-primary rounded-full w-[84%]"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between font-label-md text-label-md mb-1">
+<span class="text-on-surface">Institutional Capacity Quota</span>
+<span class="font-code-metric text-code-metric text-secondary font-bold">78% Match</span>
+</div>
+<div class="h-2 w-full bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-secondary rounded-full w-[78%]"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-space-lg pt-space-md bg-surface-container-low p-space-sm rounded-lg flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px]">lightbulb</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">
+              Counterfactual "What-If" simulator unlocks once Stage 4 completes.
+            </span>
+</div>
+</div>
+<!-- Campus Review Committee Card with Photo Richness -->
+<div class="rounded-xl bg-surface-container-lowest shadow-sm p-space-lg overflow-hidden relative">
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Assigned Review Body</span>
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]">groups</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Fellowship Committee</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 mb-space-md">
+            Auditing panel operating under double-blind algorithmic protocol.
+          </p>
+<div class="flex items-center gap-space-sm pb-space-sm">
+<div class="flex -space-x-3 overflow-hidden">
+<img class="inline-block h-10 w-10 rounded-full ring-2 ring-surface-container-lowest object-cover" data-alt="University committee professor Dr. Marcus Chen, mature Asian man with silver spectacles in an academic library, warm cinematic lighting, editorial tone." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1cGjN07LoN8UmHWsU0Y6agim2pI0mQQt5Z3g6i6VEi6eOea9Luw4TqJ25avyQOmxVXIFTPTlIQ6rvF7yMgpc5cH9gONb64fMUTc4y0CL2g2N6QJFv5ndUQu3x-sAb5v1wEo1YlAeJo-780BWxe0bNPibV7SG3a9lLq2Hbd7qlHGZPjAK_83VSpVebAgkFmW9K8kwV924J8lOMbkxUE9Y8di9o94G8N7phOyYA6DHMJ18Y35_VVoWONg"/>
+<img class="inline-block h-10 w-10 rounded-full ring-2 ring-surface-container-lowest object-cover" data-alt="Dean Elena Rostova, distinguished middle-aged woman executive in tailored navy suit, bright conference room background, confident reassuring expression." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQpStniK6f0ebDbPNFEg5S0dVlnQZYDawP-rBZCcB9BQ7U5DomrmSKgerGhZED-_7vRveyWpocRlOmjpqDEboXSUPJWQBsxNZBjAas6RN7eYyzXPd_O5O_Nk7oPoJHlIMsKWz2Yjuj-J8E2AU_czB0bt2Z_47FZV8Ho3fF4bRcYCQaskdHrbE2VsvtePRroz-XOOLeniTGLq1A9c_qrRtE5PamC0VSKE1KQV5sycqtvWgbl3y0EYqS9w"/>
+<div class="flex items-center justify-center h-10 w-10 rounded-full bg-surface-container-high text-on-surface-variant font-code-metric text-code-metric font-semibold ring-2 ring-surface-container-lowest">
+                +2
+              </div>
+</div>
+<div class="min-w-0">
+<span class="font-label-md text-label-md text-on-surface block truncate">Panel #STEM-East-7</span>
+<span class="font-body-sm text-body-sm text-tertiary">3 Peer Evaluators Active</span>
+</div>
+</div>
+<div class="pt-space-sm mt-space-xs flex justify-between items-center text-on-surface-variant font-body-sm text-body-sm">
+<span>Next Human Sync:</span>
+<span class="font-code-metric text-code-metric text-on-surface font-semibold">14:00 EST</span>
+</div>
+</div>
+<!-- Direct Contact Officer Pill -->
+<div class="p-space-md rounded-xl bg-surface-container-high flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[22px]">headset_mic</span>
+<div>
+<span class="font-label-lg text-label-lg text-on-surface block">Need Ombuds Assistance?</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Independent academic advocate on duty</span>
+</div>
+</div>
+<button class="px-space-sm py-1.5 rounded-lg bg-surface-container-lowest text-primary hover:bg-surface hover:text-primary-container font-label-md text-label-md shadow-sm transition-colors shrink-0" type="button">
+            Chat Now
+          </button>
+</div>
+</div>
+</div>
+</div>
+</div></main><footer class="w-full bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)] py-space-xl mt-space-3xl"><div class="w-full px-container-padding-desktop flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface">Veridict AI</span><span class="font-body-sm text-body-sm text-on-surface-variant mt-space-2xs">Autonomous Algorithmic Auditing &amp; Human-Centric Recourse System</span></div><div class="flex items-center gap-space-lg font-body-sm text-body-sm text-on-surface-variant"><a class="hover:text-primary transition-colors" href="#">Fairness Framework</a><a class="hover:text-primary transition-colors" href="#">Recourse Policy</a><a class="hover:text-primary transition-colors" href="#">Documentation</a><span class="font-code-metric text-code-metric text-on-surface-variant">© 2025 Veridict</span></div></div></footer></body></html>

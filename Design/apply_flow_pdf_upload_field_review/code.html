@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-primary-fixed": "#0f0069", "on-primary": "#ffffff", "on-tertiary-container": "#7ef1c2", "on-tertiary": "#ffffff", "on-error-container": "#93000a", "on-surface-variant": "#464555", "on-background": "#161b2d", "tertiary": "#00533b", "surface-variant": "#dee1fb", "tertiary-fixed": "#86f8c9", "on-tertiary-fixed-variant": "#00513a", "secondary-fixed-dim": "#c5c0ff", "on-primary-container": "#dad7ff", "surface-container-low": "#f3f2ff", "on-secondary-container": "#33288d", "surface": "#fbf8ff", "on-error": "#ffffff", "on-tertiary-fixed": "#002115", "surface-tint": "#4d44e3", "primary-fixed": "#e2dfff", "on-secondary-fixed-variant": "#41379b", "surface-container": "#ececff", "on-secondary-fixed": "#140067", "inverse-primary": "#c3c0ff", "surface-container-lowest": "#ffffff", "secondary": "#5951b4", "on-primary-fixed-variant": "#3323cc", "surface-bright": "#fbf8ff", "inverse-on-surface": "#f0efff", "primary-container": "#4f46e5", "background": "#fbf8ff", "inverse-surface": "#2b2f43", "on-secondary": "#ffffff", "surface-dim": "#d6d8f2", "surface-container-high": "#e4e7ff", "surface-container-highest": "#dee1fb", "tertiary-container": "#006e4f", "primary-fixed-dim": "#c3c0ff", "on-surface": "#161b2d", "outline": "#777587", "error-container": "#ffdad6", "secondary-fixed": "#e4dfff", "error": "#ba1a1a", "outline-variant": "#c7c4d8", "secondary-container": "#9f97ff", "tertiary-fixed-dim": "#68dbae", "primary": "#3525cd" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-3xl": "4rem", "space-2xs": "0.25rem", "space-md": "1rem", "space-sm": "0.75rem", "space-lg": "1.5rem", "max-content-width": "1200px", "container-padding-tablet": "1.5rem", "container-padding-desktop": "2.5rem", "space-xs": "0.5rem", "container-padding-mobile": "1rem", "space-2xl": "3rem", "space-xl": "2rem" }, "fontFamily": { "body-md": [ "Inter" ], "label-lg": [ "Inter" ], "body-lg": [ "Inter" ], "headline-lg-mobile": [ "Manrope" ], "headline-sm": [ "Manrope" ], "display-hero-mobile": [ "Manrope" ], "label-md": [ "Inter" ], "code-metric": [ "Inter" ], "headline-lg": [ "Manrope" ], "display-hero": [ "Manrope" ], "body-sm": [ "Inter" ], "headline-md": [ "Manrope" ], "label-caps": [ "Inter" ] }, "fontSize": { "body-md": [ "14px", { "lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "400" } ], "label-lg": [ "14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" } ], "body-lg": [ "16px", { "lineHeight": "26px", "letterSpacing": "-0.005em", "fontWeight": "400" } ], "headline-lg-mobile": [ "24px", { "lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "700" } ], "headline-sm": [ "18px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "display-hero-mobile": [ "32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "800" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" } ], "code-metric": [ "13px", { "lineHeight": "18px", "letterSpacing": "-0.01em", "fontWeight": "500" } ], "headline-lg": [ "32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "display-hero": [ "48px", { "lineHeight": "56px", "letterSpacing": "-0.03em", "fontWeight": "800" } ], "body-sm": [ "12px", { "lineHeight": "18px", "letterSpacing": "0.005em", "fontWeight": "400" } ], "headline-md": [ "24px", { "lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "700" } ], "label-caps": [ "11px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "700" } ] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 w-full px-container-padding-desktop flex items-center justify-between gap-space-lg"><div class="flex items-center gap-space-md min-w-max"><img alt="Veridict Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VKoEdwQJaZBxo9eEsqkme5x8c_xmAyAf--gY8xmLVs0b7fYwmiP-v6UlPiNVo6LCnsnJIdF3mtp8Z-ZEVeqc_g1L7TDU3yfdf03auSI1plL8nOeyyuZPv5xu7jIBaviIG1_f_R1zUm_cBL1fJ-WrZAo2m_YdqizCsGWukdiqVK3cZqOAn4b66wZaIoZdiLEtf6-DlvmddFaKS4Fn3wquKkduuGugmWvzRK85wiEUQl1ljhs-PELeos2nqO"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight leading-none">Veridict</span><span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider mt-0.5">AI Decision Explainer &amp; Fairness Engine</span></div></div><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-primary-container text-on-primary font-label-lg rounded-lg"><a class="px-space-sm py-space-xs font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all rounded-lg" data-path="overview" href="#">Overview</a><div class="h-4 w-px bg-surface-container-highest mx-space-2xs"></div><a class="px-space-sm py-space-xs font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all rounded-lg" data-path="my-applications" href="#">My Applications</a><a aria-current="page" class="px-space-sm py-space-xs transition-all bg-primary-container text-on-primary font-label-lg rounded-lg" data-path="new-application" href="#">New Application</a><div class="h-4 w-px bg-surface-container-highest mx-space-2xs"></div><a class="px-space-sm py-space-xs font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all rounded-lg" data-path="applications-table" href="#">Applications Table</a><a class="px-space-sm py-space-xs font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all rounded-lg" data-path="consensus-audit" href="#">Consensus &amp; Audit</a><a class="px-space-sm py-space-xs font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all rounded-lg" data-path="fairness-analytics" href="#">Fairness Analytics</a></nav><div class="flex items-center gap-space-md"><div class="bg-surface-container-high p-space-2xs rounded-full flex items-center"><button class="px-space-sm py-1 font-label-md text-label-md rounded-full bg-surface text-on-surface shadow-[0_1px_3px_rgba(30,34,53,0.04)]" type="button">Student View</button><button class="px-space-sm py-1 font-label-md text-label-md rounded-full text-on-surface-variant hover:text-on-surface" type="button">Admin Reviewer</button></div><button class="relative p-space-xs text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface rounded-full transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="absolute top-1 right-1 w-2 h-2 rounded-full bg-primary ring-2 ring-surface"></span></button><div class="flex items-center gap-space-xs pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdh8dHg69eZ6csSzodSNcw5f-d-CIw_xrio_lDY07TAqWQI5O2vTobnBvjbIJJ9ddwHZOrYxGZMe6WbP17SvowBMAPHfPjMkBI51zzcj8cUPR5Mp6ZGI-smPiiJxbfN4loFDC8Wl4qIER0tBzBX5KHf4Kwg3Q_wLZN6-ImpbWOdZI0axK3dLsXabMqMBd9CzcHfSgTg6gxXHLjOJi716_OZDsBhyGFYPb-rmm2pOyxuoKTgo76Z2TwEg"/></div></div></div></header><main class="w-full pt-16 bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- Interactive Feedback Banner (Hidden by default, triggered on actions) -->
+<div class="fixed bottom-6 right-8 z-50 transform translate-y-24 opacity-0 transition-all duration-300 pointer-events-none flex items-center gap-space-sm bg-inverse-surface text-inverse-on-surface px-space-lg py-space-sm rounded-xl shadow-xl" id="statusToast">
+<span class="material-symbols-outlined text-tertiary-fixed text-[20px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-body-md text-body-md" id="toastMsg">Field updated successfully</span>
+</div>
+<!-- Primary Container with strict max-width constraints -->
+<div class="w-full max-w-[1200px] mx-auto px-container-padding-mobile md:px-container-padding-tablet xl:px-container-padding-desktop py-space-xl">
+<!-- Top Editorial Header & Progress Steps -->
+<header class="relative mb-space-2xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="space-y-space-2xs max-w-2xl">
+<div class="flex items-center gap-space-xs mb-space-2xs">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-surface-container-high text-primary font-label-caps text-label-caps uppercase tracking-wider">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+              Stage 01 • Intake &amp; Extraction
+            </span>
+<span class="text-outline font-label-caps text-label-caps">Doc ID: VRD-2024-8819</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+            New Loan &amp; Fellowship Application
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+            Upload your completed application document or financial statement. Our intelligent parser will extract fields for your immediate review.
+          </p>
+</div>
+<!-- Trust / Compliance Pill Badge -->
+<div class="flex items-center gap-space-xs bg-surface-container-lowest px-space-md py-space-xs rounded-xl shadow-sm self-start md:self-auto">
+<span class="material-symbols-outlined text-tertiary text-[20px]" style="font-variation-settings: 'FILL' 1;">verified_user</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface leading-none">256-Bit Encrypted</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">FERPA &amp; RBI Fair-Lending Compliant</span>
+</div>
+</div>
+</div>
+<!-- Linear Visual Stage Tracker -->
+<div class="mt-space-lg pt-space-md flex items-center justify-between gap-2 overflow-x-auto pb-1">
+<div class="flex items-center gap-space-xs shrink-0">
+<div class="w-6 h-6 rounded-full bg-primary text-on-primary flex items-center justify-center font-label-md text-label-md">1</div>
+<span class="font-label-lg text-label-lg text-on-surface">Document Parsing</span>
+</div>
+<div class="h-0.5 flex-1 mx-space-xs bg-primary/20 rounded-full">
+<div class="h-full bg-primary w-2/3 rounded-full"></div>
+</div>
+<div class="flex items-center gap-space-xs shrink-0 opacity-60">
+<div class="w-6 h-6 rounded-full bg-surface-container-high text-on-surface-variant flex items-center justify-center font-label-md text-label-md">2</div>
+<span class="font-label-lg text-label-lg text-on-surface-variant">Consensus Audit</span>
+</div>
+<div class="h-0.5 flex-1 mx-space-xs bg-surface-container-high rounded-full"></div>
+<div class="flex items-center gap-space-xs shrink-0 opacity-40">
+<div class="w-6 h-6 rounded-full bg-surface-container-high text-on-surface-variant flex items-center justify-center font-label-md text-label-md">3</div>
+<span class="font-label-lg text-label-lg text-on-surface-variant">Explainable Decision &amp; Recourse</span>
+</div>
+</div>
+</header>
+<!-- Main Two-Column Workflow Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<!-- ================= LEFT COLUMN: INTAKE & DOCUMENT PARSER ================= -->
+<section class="lg:col-span-5 flex flex-col gap-space-lg">
+<!-- Document Upload Card -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm transition-all relative overflow-hidden">
+<div class="flex items-center justify-between mb-space-md">
+<h2 class="font-headline-sm text-headline-sm text-on-surface flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[22px]">upload_file</span>
+              Application Dossier
+            </h2>
+<span class="px-2.5 py-1 rounded-full bg-surface-container text-on-surface-variant font-code-metric text-code-metric">
+              OCR Engine v4.2
+            </span>
+</div>
+<!-- Drag and Drop Active Dropzone -->
+<div class="group relative rounded-xl p-space-xl flex flex-col items-center justify-center text-center cursor-pointer transition-all duration-200 bg-surface-container-low hover:bg-surface-container" id="dropZone">
+<!-- Concentric decorative ambient rings -->
+<div class="absolute -top-12 -right-12 w-32 h-32 bg-primary/5 rounded-full blur-2xl pointer-events-none"></div>
+<div class="w-14 h-14 rounded-2xl bg-surface-container-lowest flex items-center justify-center shadow-sm group-hover:scale-105 group-hover:bg-primary-fixed transition-all mb-space-md text-primary">
+<span class="material-symbols-outlined text-[32px]">cloud_upload</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-1">
+              Drag &amp; drop your application PDF
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md max-w-xs">
+              or <span class="text-primary font-label-lg hover:underline">browse local files</span> from your workstation
+            </p>
+<div class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-lowest shadow-sm text-on-surface-variant font-label-caps text-label-caps">
+<span class="material-symbols-outlined text-[16px] text-primary">info</span>
+              Supports PDF up to 15MB. Scanned &amp; digital forms supported.
+            </div>
+<input accept=".pdf,.png,.jpg,.jpeg" class="hidden" id="fileInput" type="file"/>
+</div>
+<!-- Processed File Mock Card -->
+<div class="mt-space-md bg-surface-container-low p-space-md rounded-xl flex flex-col gap-space-xs transition-colors">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded-lg bg-surface-container-lowest flex items-center justify-center text-error shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[24px]">picture_as_pdf</span>
+</div>
+<div class="min-w-0">
+<div class="font-label-lg text-label-lg text-on-surface truncate">
+                    Ananya_Sharma_Fellowship_Application_2024.pdf
+                  </div>
+<div class="font-code-metric text-code-metric text-on-surface-variant flex items-center gap-2">
+<span>2.4 MB</span>
+<span>•</span>
+<span class="text-tertiary flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[14px]">done_all</span>
+                      Parsed &amp; Normalized (100%)
+                    </span>
+</div>
+</div>
+</div>
+<button class="p-1.5 rounded-lg text-on-surface-variant hover:bg-surface-container-highest transition-colors" title="Remove &amp; re-select file" type="button">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<!-- Parsing Confidence Gauge -->
+<div class="mt-space-xs pt-space-xs flex flex-col gap-1.5">
+<div class="flex justify-between font-label-caps text-label-caps text-on-surface-variant">
+<span>Semantic OCR Confidence</span>
+<span class="text-tertiary font-code-metric font-semibold">99.4% Highly Confident</span>
+</div>
+<div class="w-full h-1.5 bg-surface-container-highest rounded-full overflow-hidden">
+<div class="h-full bg-tertiary rounded-full transition-all duration-1000" style="width: 99.4%;"></div>
+</div>
+</div>
+</div>
+<!-- Alternate Input Toggle -->
+<div class="mt-space-md pt-space-sm flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Prefer manual entry?</span>
+<button class="font-label-lg text-label-lg text-primary hover:text-on-primary-fixed-variant transition-colors flex items-center gap-1" type="button">
+              Switch to manual form mode
+              <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Document Verification Context Box -->
+<div class="bg-surface-container-low rounded-xl p-space-lg flex items-start gap-space-md">
+<div class="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[20px]">psychology</span>
+</div>
+<div class="space-y-1">
+<div class="font-label-lg text-label-lg text-on-surface">Explainable Consensus Protocol</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Veridict uses a deterministic tri-model consensus (XGBoost, Random Forests, &amp; Linear Constraints) to ensure no single model produces a biased or hallucinated threshold refusal.
+            </p>
+</div>
+</div>
+<!-- Application Visual Mini-Summary Graphic -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm">
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Extracted Financial Ratios</span>
+<span class="font-code-metric text-code-metric text-primary">Pre-Evaluation Metric</span>
+</div>
+<div class="grid grid-cols-2 gap-space-sm">
+<div class="p-space-sm rounded-lg bg-surface-container-low">
+<span class="font-body-sm text-body-sm text-on-surface-variant block">Requested vs. Annual</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">48.6%</span>
+<div class="w-full bg-surface-container-high h-1 rounded-full mt-1.5 overflow-hidden">
+<div class="bg-primary h-full w-[48.6%] rounded-full"></div>
+</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low">
+<span class="font-body-sm text-body-sm text-on-surface-variant block">Monthly Debt Load</span>
+<span class="font-headline-sm text-headline-sm text-tertiary">18.0%</span>
+<div class="w-full bg-surface-container-high h-1 rounded-full mt-1.5 overflow-hidden">
+<div class="bg-tertiary h-full w-[18%] rounded-full"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= RIGHT COLUMN: EXTRACTED FIELDS REVIEW ================= -->
+<section class="lg:col-span-7 flex flex-col gap-space-lg">
+<!-- Verification Card -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden flex flex-col">
+<!-- Card Header Strip -->
+<div class="p-space-lg bg-surface-container-low/50 flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div>
+<div class="flex items-center gap-space-xs mb-0.5">
+<h2 class="font-headline-sm text-headline-sm text-on-surface">
+                  Extracted Fields &amp; Confirmation
+                </h2>
+<span class="inline-flex items-center px-2 py-0.5 rounded-full bg-surface-container-highest text-on-surface font-label-caps text-label-caps">
+                  11/11 Verified
+                </span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Ensure auto-extracted figures match your official records before triggering consensus audit.
+              </p>
+</div>
+<!-- Quick Action: Edit All / Lock Status -->
+<button class="inline-flex items-center gap-1.5 px-space-sm py-1.5 rounded-lg bg-surface-container-highest text-on-surface font-label-md text-label-md hover:bg-surface-container transition-colors shrink-0" id="toggleEditModeBtn" type="button">
+<span class="material-symbols-outlined text-[16px]">edit_note</span>
+<span>Edit Attributes</span>
+</button>
+</div>
+<!-- Context Alert Notification Strip -->
+<div class="mx-space-lg mt-space-md p-space-sm rounded-xl bg-surface-container-high flex items-center gap-space-sm text-on-surface">
+<span class="material-symbols-outlined text-primary text-[20px] shrink-0">info</span>
+<p class="font-body-sm text-body-sm">
+              Review extracted data before running consensus evaluation. Click any pencil icon to modify values if OCR misread your documents.
+            </p>
+</div>
+<!-- Clean Form Data Table / Rows -->
+<div class="p-space-lg flex flex-col divide-y divide-surface-container-high/60">
+<!-- Row 1: Full Legal Name -->
+<div class="py-3.5 flex items-center justify-between gap-space-md group hover:bg-surface-container-low/40 px-2 rounded-lg transition-colors">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="material-symbols-outlined text-[18px] text-outline">badge</span>
+<span class="font-body-md text-body-md text-on-surface-variant">Full Name</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="font-label-lg text-label-lg text-on-surface editable-val" data-field="name">Ananya Sharma</span>
+<button class="edit-field-btn opacity-40 group-hover:opacity-100 p-1 text-on-surface-variant hover:text-primary transition-opacity" title="Edit Full Name" type="button">
+<span class="material-symbols-outlined text-[16px]">edit</span>
+</button>
+</div>
+</div>
+<!-- Row 2: Academic Score -->
+<div class="py-3.5 flex items-center justify-between gap-space-md group hover:bg-surface-container-low/40 px-2 rounded-lg transition-colors">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="material-symbols-outlined text-[18px] text-outline">school</span>
+<span class="font-body-md text-body-md text-on-surface-variant">Academic Score</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<div class="flex items-center gap-2">
+<span class="font-label-lg text-label-lg text-on-surface font-code-metric editable-val" data-field="academic">88 / 100</span>
+<span class="px-2 py-0.5 rounded-full bg-tertiary-fixed/40 text-on-tertiary-fixed font-label-caps text-label-caps">Top Decile</span>
+</div>
+<button class="edit-field-btn opacity-40 group-hover:opacity-100 p-1 text-on-surface-variant hover:text-primary transition-opacity" title="Edit Academic Score" type="button">
+<span class="material-symbols-outlined text-[16px]">edit</span>
+</button>
+</div>
+</div>
+<!-- Row 3: Annual Household Income -->
+<div class="py-3.5 flex items-center justify-between gap-space-md group hover:bg-surface-container-low/40 px-2 rounded-lg transition-colors">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="material-symbols-outlined text-[18px] text-outline">payments</span>
+<span class="font-body-md text-body-md text-on-surface-variant">Annual Income</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="font-label-lg text-label-lg text-on-surface font-code-metric editable-val" data-field="income">₹7,20,000 / yr</span>
+<button class="edit-field-btn opacity-40 group-hover:opacity-100 p-1 text-on-surface-variant hover:text-primary transition-opacity" title="Edit Annual Income" type="button">
+<span class="material-symbols-outlined text-[16px]">edit</span>
+</button>
+</div>
+</div>
+<!-- Row 4: Employment History -->
+<div class="py-3.5 flex items-center justify-between gap-space-md group hover:bg-surface-container-low/40 px-2 rounded-lg transition-colors">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="material-symbols-outlined text-[18px] text-outline">work_history</span>
+<span class="font-body-md text-body-md text-on-surface-variant">Employment Experience</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="font-label-lg text-label-lg text-on-surface editable-val" data-field="employment">2.5 Years</span>
+<button class="edit-field-btn opacity-40 group-hover:opacity-100 p-1 text-on-surface-variant hover:text-primary transition-opacity" title="Edit Employment Years" type="button">
+<span class="material-symbols-outlined text-[16px]">edit</span>
+</button>
+</div>
+</div>
+<!-- Row 5: Credit Score -->
+<div class="py-3.5 flex items-center justify-between gap-space-md group hover:bg-surface-container-low/40 px-2 rounded-lg transition-colors">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="material-symbols-outlined text-[18px] text-outline">speed</span>
+<span class="font-body-md text-body-md text-on-surface-variant">Credit Score (CIBIL/Equifax)</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<div class="flex items-center gap-2">
+<span class="font-label-lg text-label-lg text-on-surface font-code-metric editable-val" data-field="cibil">740</span>
+<span class="px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-caps text-label-caps font-semibold">
+                    Excellent
+                  </span>
+</div>
+<button class="edit-field-btn opacity-40 group-hover:opacity-100 p-1 text-on-surface-variant hover:text-primary transition-opacity" title="Edit Credit Score" type="button">
+<span class="material-symbols-outlined text-[16px]">edit</span>
+</button>
+</div>
+</div>
+<!-- Row 6: Credit History Duration -->
+<div class="py-3.5 flex items-center justify-between gap-space-md group hover:bg-surface-container-low/40 px-2 rounded-lg transition-colors">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="material-symbols-outlined text-[18px] text-outline">history</span>
+<span class="font-body-md text-body-md text-on-surface-variant">Credit History</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="font-label-lg text-label-lg text-on-surface editable-val" data-field="credithistory">4 Years</span>
+<button class="edit-field-btn opacity-40 group-hover:opacity-100 p-1 text-on-surface-variant hover:text-primary transition-opacity" title="Edit Credit History" type="button">
+<span class="material-symbols-outlined text-[16px]">edit</span>
+</button>
+</div>
+</div>
+<!-- Row 7: Requested Loan / Fellowship Amount -->
+<div class="py-3.5 flex items-center justify-between gap-space-md group hover:bg-surface-container-low/40 px-2 rounded-lg transition-colors bg-primary-fixed/20 px-2 rounded-lg">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="material-symbols-outlined text-[18px] text-primary">account_balance_wallet</span>
+<span class="font-label-lg text-label-lg text-on-surface">Loan / Grant Requested</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="font-headline-sm text-headline-sm text-primary font-code-metric editable-val" data-field="requested">₹3,50,000</span>
+<button class="edit-field-btn opacity-60 group-hover:opacity-100 p-1 text-primary hover:text-on-primary-fixed-variant transition-opacity" title="Edit Requested Amount" type="button">
+<span class="material-symbols-outlined text-[16px]">edit</span>
+</button>
+</div>
+</div>
+<!-- Row 8: Existing Debt Ratio -->
+<div class="py-3.5 flex items-center justify-between gap-space-md group hover:bg-surface-container-low/40 px-2 rounded-lg transition-colors">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="material-symbols-outlined text-[18px] text-outline">balance</span>
+<span class="font-body-md text-body-md text-on-surface-variant">Existing Debt Ratio (DTI)</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<div class="flex items-center gap-2">
+<span class="font-label-lg text-label-lg text-on-surface font-code-metric editable-val" data-field="dti">0.18</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-highest text-on-surface-variant font-label-caps text-label-caps">
+                    Low Risk
+                  </span>
+</div>
+<button class="edit-field-btn opacity-40 group-hover:opacity-100 p-1 text-on-surface-variant hover:text-primary transition-opacity" title="Edit Debt Ratio" type="button">
+<span class="material-symbols-outlined text-[16px]">edit</span>
+</button>
+</div>
+</div>
+<!-- Row 9: Prior Default Record -->
+<div class="py-3.5 flex items-center justify-between gap-space-md group hover:bg-surface-container-low/40 px-2 rounded-lg transition-colors">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="material-symbols-outlined text-[18px] text-outline">gavel</span>
+<span class="font-body-md text-body-md text-on-surface-variant">Prior Default</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="px-2.5 py-0.5 rounded-full bg-tertiary-fixed/30 text-on-tertiary-fixed font-label-lg text-label-lg font-medium flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">check</span>
+                  None (No)
+                </span>
+<button class="edit-field-btn opacity-40 group-hover:opacity-100 p-1 text-on-surface-variant hover:text-primary transition-opacity" title="Edit Default Status" type="button">
+<span class="material-symbols-outlined text-[16px]">edit</span>
+</button>
+</div>
+</div>
+<!-- Row 10: Documents Attached -->
+<div class="py-3.5 flex items-center justify-between gap-space-md group hover:bg-surface-container-low/40 px-2 rounded-lg transition-colors">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="material-symbols-outlined text-[18px] text-outline">attachment</span>
+<span class="font-body-md text-body-md text-on-surface-variant">Documents Attached</span>
+</div>
+<div class="flex items-center gap-space-sm text-right">
+<span class="font-body-md text-body-md text-on-surface-variant">
+                  Transcripts, Income Certificate, ID Proof <span class="font-semibold text-tertiary font-code-metric">(3/3)</span>
+</span>
+<span class="material-symbols-outlined text-tertiary text-[18px]">verified</span>
+</div>
+</div>
+<!-- Row 11: Preliminary Eligibility Flag -->
+<div class="py-3.5 flex items-center justify-between gap-space-md group hover:bg-surface-container-low/40 px-2 rounded-lg transition-colors">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="material-symbols-outlined text-[18px] text-tertiary">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface font-semibold">Eligibility Criteria Met</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="px-3 py-1 rounded-full bg-tertiary text-on-tertiary font-label-md text-label-md tracking-wide">
+                  PASS (Pre-Audit)
+                </span>
+</div>
+</div>
+</div>
+</div>
+<!-- Algorithmic Recourse Guarantee Note -->
+<div class="p-space-md rounded-xl bg-surface-container-low/70 flex items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[22px]">balance</span>
+<div class="font-body-sm text-body-sm text-on-surface-variant">
+              Every applicant receives a mathematically actionable counterfactual explanation upon consensus finalization.
+            </div>
+</div>
+<a class="font-label-md text-label-md text-primary hover:underline whitespace-nowrap" href="#">Recourse Policy</a>
+</div>
+</section>
+</div>
+<!-- ================= BOTTOM STICKY ACTION BAR ================= -->
+<footer class="mt-space-2xl pt-space-lg bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col sm:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm">
+<button class="px-space-md py-2.5 rounded-lg bg-surface-container-high text-on-surface font-label-lg text-label-lg hover:bg-surface-container-highest transition-colors flex items-center gap-2" id="reuploadBtn" type="button">
+<span class="material-symbols-outlined text-[18px]">refresh</span>
+          Re-upload Document
+        </button>
+<button class="px-space-md py-2.5 rounded-lg text-on-surface-variant font-label-lg text-label-lg hover:bg-surface-container transition-colors hidden md:inline-flex items-center gap-1.5" id="saveDraftBtn" type="button">
+<span class="material-symbols-outlined text-[18px]">bookmark_border</span>
+          Save Draft
+        </button>
+</div>
+<!-- Main Action CTA -->
+<div class="flex items-center gap-space-md w-full sm:w-auto">
+<div class="hidden lg:flex flex-col text-right">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Estimated Runtime</span>
+<span class="font-code-metric text-code-metric text-on-surface">~1.8 Seconds (Consensus Core)</span>
+</div>
+<button class="w-full sm:w-auto px-space-xl py-3 rounded-xl bg-primary text-on-primary font-label-lg text-label-lg hover:bg-on-primary-fixed-variant transition-all shadow-md flex items-center justify-center gap-space-sm group" id="runConsensusBtn" type="button">
+<span class="material-symbols-outlined text-[20px] text-on-tertiary-container group-hover:rotate-12 transition-transform" style="font-variation-settings: 'FILL' 1;">
+            shield_lock
+          </span>
+<span>Run Veridict AI Consensus Evaluation</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">
+            arrow_forward
+          </span>
+</button>
+</div>
+</footer>
+</div>
+<!-- Inline Micro-interactions and Affordance Handling -->
+<script>
+    (function() {
+      const dropZone = document.getElementById('dropZone');
+      const fileInput = document.getElementById('fileInput');
+      const reuploadBtn = document.getElementById('reuploadBtn');
+      const runConsensusBtn = document.getElementById('runConsensusBtn');
+      const saveDraftBtn = document.getElementById('saveDraftBtn');
+      const toast = document.getElementById('statusToast');
+      const toastMsg = document.getElementById('toastMsg');
+      const editButtons = document.querySelectorAll('.edit-field-btn');
+      const toggleEditModeBtn = document.getElementById('toggleEditModeBtn');
+
+      function showToast(message) {
+        if (!toast || !toastMsg) return;
+        toastMsg.textContent = message;
+        toast.classList.remove('opacity-0', 'translate-y-24', 'pointer-events-none');
+        setTimeout(() => {
+          toast.classList.add('opacity-0', 'translate-y-24', 'pointer-events-none');
+        }, 2800);
+      }
+
+      // Drag & Drop handlers
+      if (dropZone && fileInput) {
+        dropZone.addEventListener('click', () => fileInput.click());
+        ['dragenter', 'dragover'].forEach(eventName => {
+          dropZone.addEventListener(eventName, (e) => {
+            e.preventDefault();
+            dropZone.classList.add('bg-primary-fixed/40');
+          });
+        });
+        ['dragleave', 'drop'].forEach(eventName => {
+          dropZone.addEventListener(eventName, (e) => {
+            e.preventDefault();
+            dropZone.classList.remove('bg-primary-fixed/40');
+          });
+        });
+        dropZone.addEventListener('drop', (e) => {
+          if (e.dataTransfer.files.length) {
+            showToast('Document received: Parsing simulated for ' + e.dataTransfer.files[0].name);
+          }
+        });
+        fileInput.addEventListener('change', () => {
+          if (fileInput.files.length) {
+            showToast('Document uploaded: ' + fileInput.files[0].name);
+          }
+        });
+      }
+
+      if (reuploadBtn && fileInput) {
+        reuploadBtn.addEventListener('click', () => fileInput.click());
+      }
+
+      if (saveDraftBtn) {
+        saveDraftBtn.addEventListener('click', () => {
+          showToast('Draft progress saved to encrypted vault');
+        });
+      }
+
+      // Editable field simulation
+      editButtons.forEach((btn) => {
+        btn.addEventListener('click', function(e) {
+          e.stopPropagation();
+          const row = this.closest('.group');
+          const valueElem = row ? row.querySelector('.editable-val') : null;
+          if (valueElem) {
+            const current = valueElem.textContent.trim();
+            const updated = prompt('Update attribute value:', current);
+            if (updated !== null && updated.trim() !== '') {
+              valueElem.textContent = updated;
+              showToast('Field updated to: ' + updated);
+            }
+          }
+        });
+      });
+
+      let allEditable = false;
+      if (toggleEditModeBtn) {
+        toggleEditModeBtn.addEventListener('click', () => {
+          allEditable = !allEditable;
+          editButtons.forEach(btn => {
+            if (allEditable) {
+              btn.classList.remove('opacity-40');
+              btn.classList.add('opacity-100', 'text-primary');
+            } else {
+              btn.classList.remove('opacity-100', 'text-primary');
+              btn.classList.add('opacity-40');
+            }
+          });
+          showToast(allEditable ? 'Edit mode enabled for all parsed fields' : 'Modifications locked');
+        });
+      }
+
+      // Action CTA Trigger
+      if (runConsensusBtn) {
+        runConsensusBtn.addEventListener('click', function() {
+          const originalText = this.innerHTML;
+          this.disabled = true;
+          this.innerHTML = `
+            <span class="inline-block animate-spin material-symbols-outlined text-[20px]">sync</span>
+            <span>Running Tri-Model Fairness Audit...</span>
+          `;
+          
+          setTimeout(() => {
+            this.innerHTML = `
+              <span class="material-symbols-outlined text-[20px] text-tertiary-fixed">check_circle</span>
+              <span>Consensus Reached! Redirecting...</span>
+            `;
+            showToast('Audit complete. Verified by XGBoost & Constraint Models.');
+            
+            setTimeout(() => {
+              this.disabled = false;
+              this.innerHTML = originalText;
+            }, 2000);
+          }, 1800);
+        });
+      }
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)] py-space-xl mt-space-3xl"><div class="w-full px-container-padding-desktop flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface">Veridict AI</span><span class="font-body-sm text-body-sm text-on-surface-variant mt-space-2xs">Autonomous Algorithmic Auditing &amp; Human-Centric Recourse System</span></div><div class="flex items-center gap-space-lg font-body-sm text-body-sm text-on-surface-variant"><a class="hover:text-primary transition-colors" href="#">Fairness Framework</a><a class="hover:text-primary transition-colors" href="#">Recourse Policy</a><a class="hover:text-primary transition-colors" href="#">Documentation</a><span class="font-code-metric text-code-metric text-on-surface-variant">© 2025 Veridict</span></div></div></footer></body></html>

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "TC-01",
+    "category": "Normal Case (Standard Approval)",
+    "title": "Prime Credit & Solid Income",
+    "description": "Established professional applying for a standard loan with prime credit and low financial leverage.",
+    "inputs": {
+      "academic_score": 85.0,
+      "income_annual": 75000,
+      "employment_years": 6.0,
+      "credit_score": 760,
+      "credit_history_years": 8.0,
+      "loan_amount_requested": 18000,
+      "existing_debt_ratio": 0.18,
+      "prior_default_flag": 0,
+      "documents_missing_ct": 0,
+      "eligibility_criteria_met": 1
+    },
+    "expected_decision": "Approve",
+    "confidence": "High",
+    "model_approval_probability": 0.980,
+    "top_reasons": [
+      "Prime credit score (760) demonstrates strong repayment capacity",
+      "Clean repayment track record (zero prior defaults)",
+      "All mandatory verification documents submitted"
+    ],
+    "fairness_flag": null,
+    "fairness_note": "No disparate impact or proxy bias pattern detected",
+    "next_action": "Issue automated loan pre-approval and send sanction letter."
+  },
+  {
+    "id": "TC-02",
+    "category": "Normal Case (Problem Statement Example)",
+    "title": "High Merit Scholarship Scholar",
+    "description": "TCS Hackathon Handbook Example: 90%+ academic score, low income range, all documents submitted, meets eligibility.",
+    "inputs": {
+      "academic_score": 92.0,
+      "income_annual": 24000,
+      "employment_years": 1.0,
+      "credit_score": 680,
+      "credit_history_years": 2.0,
+      "loan_amount_requested": 5000,
+      "existing_debt_ratio": 0.10,
+      "prior_default_flag": 0,
+      "documents_missing_ct": 0,
+      "eligibility_criteria_met": 1
+    },
+    "expected_decision": "Approve",
+    "confidence": "Medium",
+    "model_approval_probability": 0.929,
+    "top_reasons": [
+      "Clean repayment track record (zero prior defaults)",
+      "All mandatory verification documents submitted",
+      "Outstanding academic merit score (92.0%)"
+    ],
+    "fairness_flag": null,
+    "fairness_note": "No disparate impact or proxy bias pattern detected",
+    "next_action": "Disburse scholarship award package immediately."
+  },
+  {
+    "id": "TC-03",
+    "category": "Alternate Case (Adverse Rejection)",
+    "title": "High Credit Risk & Historical Default",
+    "description": "Applicant with subprime credit score below 580, prior default history, and unsustainable debt ratio.",
+    "inputs": {
+      "academic_score": 64.0,
+      "income_annual": 38000,
+      "employment_years": 1.5,
+      "credit_score": 520,
+      "credit_history_years": 2.5,
+      "loan_amount_requested": 25000,
+      "existing_debt_ratio": 0.62,
+      "prior_default_flag": 1,
+      "documents_missing_ct": 0,
+      "eligibility_criteria_met": 1
+    },
+    "expected_decision": "Reject",
+    "confidence": "Medium",
+    "model_approval_probability": 0.000,
+    "top_reasons": [
+      "Credit score (520) below underwriting floor (580)",
+      "Prior loan default on historical credit file",
+      "Loan-to-income ratio (65.8%) exceeds safety limit (40%)",
+      "High debt ratio (62.0%) indicates severe leverage"
+    ],
+    "fairness_flag": null,
+    "fairness_note": "No disparate impact or proxy bias pattern detected",
+    "next_action": "Send formal adverse action letter with explicit policy reasons (subprime credit + default record)."
+  },
+  {
+    "id": "TC-04",
+    "category": "Alternate Case (Borderline Review)",
+    "title": "Missing Verification Document",
+    "description": "Moderate credit applicant with borderline academic marks (61.5) and 1 missing verification certificate.",
+    "inputs": {
+      "academic_score": 61.5,
+      "income_annual": 55000,
+      "employment_years": 3.5,
+      "credit_score": 640,
+      "credit_history_years": 4.0,
+      "loan_amount_requested": 14000,
+      "existing_debt_ratio": 0.28,
+      "prior_default_flag": 0,
+      "documents_missing_ct": 1,
+      "eligibility_criteria_met": 1
+    },
+    "expected_decision": "Needs Review",
+    "confidence": "Medium",
+    "model_approval_probability": 0.121,
+    "top_reasons": [
+      "1 required verification document(s) missing",
+      "Borderline qualification criteria"
+    ],
+    "fairness_flag": null,
+    "fairness_note": "No disparate impact or proxy bias pattern detected",
+    "next_action": "Assign to junior underwriter queue; trigger SMS/Email request to upload missing verification document."
+  },
+  {
+    "id": "TC-05",
+    "category": "Edge Case (Responsible AI Fairness Safeguard)",
+    "title": "Low Income + Missing Paperwork (Disparate Impact Prevention)",
+    "description": "Top-tier academic applicant from economically marginalized background (income < INR 35,000) lacking 1 formal document.",
+    "inputs": {
+      "academic_score": 89.5,
+      "income_annual": 22000,
+      "employment_years": 1.0,
+      "credit_score": 660,
+      "credit_history_years": 2.0,
+      "loan_amount_requested": 6000,
+      "existing_debt_ratio": 0.15,
+      "prior_default_flag": 0,
+      "documents_missing_ct": 1,
+      "eligibility_criteria_met": 1
+    },
+    "expected_decision": "Needs Review",
+    "confidence": "Medium",
+    "model_approval_probability": 0.561,
+    "top_reasons": [
+      "1 required verification document(s) missing",
+      "Borderline qualification criteria"
+    ],
+    "fairness_flag": "FAIRNESS FLAG TRIGGERED: Lower-income applicant with missing paperwork. Bypasses automated denial to prevent indirect systemic exclusion.",
+    "fairness_note": "WARNING: Low income (< INR 35,000) coincides with missing documentation. Automated rejection suppressed; escalated to human inclusion evaluator.",
+    "next_action": "Escalate to Human Inclusion Evaluator for alternative document verification (e.g. community reference or affidavit)."
+  }
+]

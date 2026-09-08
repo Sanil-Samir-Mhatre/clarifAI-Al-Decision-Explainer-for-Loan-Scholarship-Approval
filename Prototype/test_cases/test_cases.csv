@@ -1,0 +1,6 @@
+case_id,category,title,academic_score,income_annual,employment_years,credit_score,credit_history_years,loan_amount_requested,loan_percent_income,existing_debt_ratio,prior_default_flag,documents_missing_ct,eligibility_criteria_met,expected_decision,confidence,model_approval_probability,fairness_flag_active,next_action
+TC-01,Normal Case,Prime Credit & Solid Income,85.0,75000,6.0,760,8.0,18000,0.240,0.18,0,0,1,Approve,High,0.980,No,Issue automated loan pre-approval and send sanction letter.
+TC-02,Normal Case,High Merit Scholarship Scholar,92.0,24000,1.0,680,2.0,5000,0.208,0.10,0,0,1,Approve,Medium,0.929,No,Disburse scholarship award package immediately.
+TC-03,Alternate Case,High Credit Risk & Historical Default,64.0,38000,1.5,520,2.5,25000,0.658,0.62,1,0,1,Reject,Medium,0.000,No,Send formal adverse action letter with explicit policy reasons (subprime credit + default record).
+TC-04,Alternate Case,Missing Verification Document,61.5,55000,3.5,640,4.0,14000,0.255,0.28,0,1,1,Needs Review,Medium,0.121,No,Assign to junior underwriter queue; trigger SMS/Email request to upload missing verification document.
+TC-05,Edge Case,Low Income + Missing Paperwork (Fairness),89.5,22000,1.0,660,2.0,6000,0.273,0.15,0,1,1,Needs Review,Medium,0.561,Yes,Escalate to Human Inclusion Evaluator for alternative document verification (e.g. community reference or affidavit).

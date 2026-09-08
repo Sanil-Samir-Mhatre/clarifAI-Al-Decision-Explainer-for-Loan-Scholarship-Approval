@@ -1,0 +1,30 @@
+{
+  "test_case_id": "TC-02",
+  "category": "Normal Case (Problem Statement Example)",
+  "scenario": "High Merit Scholarship Scholar",
+  "inputs": {
+    "academic_score": 92.0,
+    "income_annual": 24000,
+    "employment_years": 1.0,
+    "credit_score": 680,
+    "credit_history_years": 2.0,
+    "loan_amount_requested": 5000,
+    "loan_percent_income": 0.208,
+    "existing_debt_ratio": 0.10,
+    "prior_default_flag": 0,
+    "documents_missing_ct": 0,
+    "eligibility_criteria_met": 1
+  },
+  "expected_outputs": {
+    "decision": "Approve",
+    "confidence": "Medium",
+    "model_approval_probability": 0.929,
+    "fairness_flag_active": false
+  },
+  "reasons": [
+    "Clean repayment track record (zero prior defaults)",
+    "All mandatory verification documents submitted",
+    "Outstanding academic merit score (92.0%)"
+  ],
+  "next_action": "Disburse scholarship award package immediately."
+}

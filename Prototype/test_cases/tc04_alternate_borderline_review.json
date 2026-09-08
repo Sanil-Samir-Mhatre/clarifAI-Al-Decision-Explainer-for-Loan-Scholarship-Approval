@@ -1,0 +1,29 @@
+{
+  "test_case_id": "TC-04",
+  "category": "Alternate Case (Borderline Review)",
+  "scenario": "Missing Verification Document",
+  "inputs": {
+    "academic_score": 61.5,
+    "income_annual": 55000,
+    "employment_years": 3.5,
+    "credit_score": 640,
+    "credit_history_years": 4.0,
+    "loan_amount_requested": 14000,
+    "loan_percent_income": 0.255,
+    "existing_debt_ratio": 0.28,
+    "prior_default_flag": 0,
+    "documents_missing_ct": 1,
+    "eligibility_criteria_met": 1
+  },
+  "expected_outputs": {
+    "decision": "Needs Review",
+    "confidence": "Medium",
+    "model_approval_probability": 0.121,
+    "fairness_flag_active": false
+  },
+  "reasons": [
+    "1 required verification document(s) missing",
+    "Borderline qualification criteria"
+  ],
+  "next_action": "Assign to junior underwriter queue; trigger SMS/Email request to upload missing verification document."
+}
