@@ -3,9 +3,9 @@ import React from 'react';
 
 export default function AdminHistoryPage() {
   const historyData = [
-    { id: 'APP-2026-090', applicant: 'Raj Patel', date: '01-09-2026', score: '82.4%', result: 'Approved' },
-    { id: 'APP-2026-091', applicant: 'Sara Chen', date: '05-09-2026', score: '45.1%', result: 'Rejected' },
-    { id: 'APP-2026-092', applicant: 'Sanika Pillai', date: '08-09-2026', score: '59.2%', result: 'Pending' },
+    { id: 'APP-2026-090', applicant: 'Raj Patel', date: '01-09-2026, 14:32:00', score: '82.4%', result: 'Approved' },
+    { id: 'APP-2026-091', applicant: 'Sara Chen', date: '05-09-2026, 09:15:22', score: '45.1%', result: 'Rejected' },
+    { id: 'APP-2026-092', applicant: 'Sanika Pillai', date: '08-09-2026, 16:45:10', score: '59.2%', result: 'Pending' },
   ];
 
   return (

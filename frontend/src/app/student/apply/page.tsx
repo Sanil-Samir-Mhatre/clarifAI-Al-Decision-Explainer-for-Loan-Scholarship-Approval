@@ -81,7 +81,7 @@ export default function ApplyPage() {
         const newApp = {
           id: `APP-2026-${Math.floor(Math.random() * 1000).toString().padStart(3, '0')}`,
           applicant: data.applicant_name || 'Applicant',
-          date: new Date().toLocaleDateString('en-GB').replace(/\//g, '-'),
+          date: new Date().toLocaleString('en-GB').replace(/\//g, '-'),
           flag: result.verdict === 'Approve' ? 'Clear' : 'Needs Review',
           score: 'Pending Eval',
           result: 'Pending',
@@ -125,7 +125,7 @@ export default function ApplyPage() {
         const newApp = {
           id: `APP-2026-${Math.floor(Math.random() * 1000).toString().padStart(3, '0')}`,
           applicant: filename.split('_')[0].replace('case', 'Test User '), // mock name
-          date: new Date().toLocaleDateString('en-GB').replace(/\//g, '-'),
+          date: new Date().toLocaleString('en-GB').replace(/\//g, '-'),
           flag: result.verdict === 'Approve' ? 'Clear' : 'Needs Review',
           score: 'Pending Eval',
           result: 'Pending',
