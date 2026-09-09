@@ -3,11 +3,41 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --surface: #ffffff;
+  --on-surface: #171717;
+  --surface-variant: #f3f4f6;
+  --on-surface-variant: #4b5563;
+  --surface-container-lowest: #ffffff;
+  --surface-container-low: #f9fafb;
+  --surface-container: #f3f4f6;
+  --surface-container-high: #e5e7eb;
+  --surface-container-highest: #d1d5db;
+  --outline: #9ca3af;
+  --outline-variant: #d1d5db;
+  --primary: #3525cd;
+  --on-primary: #ffffff;
+  --primary-container: #e0e7ff;
+  --on-primary-container: #312e81;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-on-surface: var(--on-surface);
+  --color-surface-variant: var(--surface-variant);
+  --color-on-surface-variant: var(--on-surface-variant);
+  --color-surface-container-lowest: var(--surface-container-lowest);
+  --color-surface-container-low: var(--surface-container-low);
+  --color-surface-container: var(--surface-container);
+  --color-surface-container-high: var(--surface-container-high);
+  --color-surface-container-highest: var(--surface-container-highest);
+  --color-outline: var(--outline);
+  --color-outline-variant: var(--outline-variant);
+  --color-primary: var(--primary);
+  --color-on-primary: var(--on-primary);
+  --color-primary-container: var(--primary-container);
+  --color-on-primary-container: var(--on-primary-container);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -16,6 +46,21 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --surface: #121212;
+    --on-surface: #ededed;
+    --surface-variant: #1f2937;
+    --on-surface-variant: #9ca3af;
+    --surface-container-lowest: #000000;
+    --surface-container-low: #111827;
+    --surface-container: #1f2937;
+    --surface-container-high: #374151;
+    --surface-container-highest: #4b5563;
+    --outline: #6b7280;
+    --outline-variant: #4b5563;
+    --primary: #818cf8;
+    --on-primary: #000000;
+    --primary-container: #3730a3;
+    --on-primary-container: #e0e7ff;
   }
 }
 
