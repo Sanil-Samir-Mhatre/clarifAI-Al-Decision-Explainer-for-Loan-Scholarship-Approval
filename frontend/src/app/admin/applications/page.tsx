@@ -20,7 +20,7 @@ export default function AdminApplicationsPage() {
     setEvalResult(null);
     setIsLoading(true);
     try {
-      const res = await fetch('http://localhost:5000/evaluate', {
+      const res = await fetch('/api/evaluate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ application: app.payload })

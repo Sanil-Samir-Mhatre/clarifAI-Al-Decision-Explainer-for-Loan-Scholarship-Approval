@@ -69,7 +69,7 @@ export default function ApplyPage() {
       // Send to backend (Simulating backend storing for admin)
       setIsEvaluating(true);
       try {
-        const res = await fetch('http://localhost:5000/evaluate', {
+        const res = await fetch('/api/evaluate', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ application: data })
@@ -113,7 +113,7 @@ export default function ApplyPage() {
         
         
         setIsEvaluating(true);
-        const evalRes = await fetch('http://localhost:5000/evaluate', {
+        const evalRes = await fetch('/api/evaluate', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ application: parsed })
